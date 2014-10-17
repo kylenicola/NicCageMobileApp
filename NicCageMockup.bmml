@@ -140,11 +140,11 @@
             <textOrientation>down</textOrientation>
           </controlProperties>
         </control>
-        <control controlID="12" controlTypeID="com.balsamiq.mockups::ButtonBar" x="11" y="46" w="188" h="17" measuredW="181" measuredH="22" zOrder="12" locked="false" isInGroup="23">
+        <control controlID="12" controlTypeID="com.balsamiq.mockups::ButtonBar" x="11" y="47" w="188" h="19" measuredW="185" measuredH="22" zOrder="12" locked="false" isInGroup="23">
           <controlProperties>
             <selectedIndex>-1</selectedIndex>
             <size>8</size>
-            <text>Settings%2C%20Help%2C%20Score%2C%20About%2C%20Exit</text>
+            <text>Settings%2C%20Help%2C%20Scores%2C%20About%2C%20Exit</text>
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
@@ -258,11 +258,11 @@
             <textOrientation>down</textOrientation>
           </controlProperties>
         </control>
-        <control controlID="12" controlTypeID="com.balsamiq.mockups::ButtonBar" x="11" y="46" w="188" h="17" measuredW="181" measuredH="22" zOrder="12" locked="false" isInGroup="74">
+        <control controlID="12" controlTypeID="com.balsamiq.mockups::ButtonBar" x="11" y="47" w="188" h="19" measuredW="185" measuredH="22" zOrder="12" locked="false" isInGroup="74">
           <controlProperties>
             <selectedIndex>-1</selectedIndex>
             <size>8</size>
-            <text>Settings%2C%20Help%2C%20Score%2C%20About%2C%20Exit</text>
+            <text>Settings%2C%20Help%2C%20Scores%2C%20About%2C%20Exit</text>
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
@@ -680,11 +680,11 @@
                                     <textOrientation>down</textOrientation>
                                   </controlProperties>
                                 </control>
-                                <control controlID="12" controlTypeID="com.balsamiq.mockups::ButtonBar" x="11" y="46" w="188" h="17" measuredW="181" measuredH="22" zOrder="12" locked="false" isInGroup="0">
+                                <control controlID="12" controlTypeID="com.balsamiq.mockups::ButtonBar" x="11" y="47" w="188" h="19" measuredW="185" measuredH="22" zOrder="12" locked="false" isInGroup="0">
                                   <controlProperties>
                                     <selectedIndex>-1</selectedIndex>
                                     <size>8</size>
-                                    <text>Settings%2C%20Help%2C%20Score%2C%20About%2C%20Exit</text>
+                                    <text>Settings%2C%20Help%2C%20Scores%2C%20About%2C%20Exit</text>
                                   </controlProperties>
                                 </control>
                               </groupChildrenDescriptors>
@@ -1078,11 +1078,11 @@
             <textOrientation>down</textOrientation>
           </controlProperties>
         </control>
-        <control controlID="12" controlTypeID="com.balsamiq.mockups::ButtonBar" x="11" y="46" w="188" h="17" measuredW="181" measuredH="22" zOrder="12" locked="false" isInGroup="117">
+        <control controlID="12" controlTypeID="com.balsamiq.mockups::ButtonBar" x="11" y="47" w="188" h="19" measuredW="185" measuredH="22" zOrder="12" locked="false" isInGroup="117">
           <controlProperties>
             <selectedIndex>-1</selectedIndex>
             <size>8</size>
-            <text>Settings%2C%20Help%2C%20Score%2C%20About%2C%20Exit</text>
+            <text>Settings%2C%20Help%2C%20Scores%2C%20About%2C%20Exit</text>
           </controlProperties>
         </control>
       </groupChildrenDescriptors>

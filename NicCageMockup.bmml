@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1511" measuredH="2927" mockupW="1451" mockupH="2907">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1767" measuredH="2927" mockupW="1707" mockupH="2907">
   <controls>
     <control controlID="2" controlTypeID="__group__" x="60" y="44" w="209" h="399" measuredW="209" measuredH="399" zOrder="0" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
@@ -25,7 +25,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="60" y="20" w="-1" h="-1" measuredW="64" measuredH="21" zOrder="1" locked="false" isInGroup="-1">
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="60" y="20" w="593" h="-1" measuredW="64" measuredH="21" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>16777215</color>
@@ -560,17 +560,17 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="116" controlTypeID="__group__" x="842" y="44" w="209" h="2540" measuredW="209" measuredH="2540" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="116" controlTypeID="__group__" x="842" y="44" w="925" h="2540" measuredW="925" measuredH="2540" zOrder="5" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
-        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="209" h="2540" measuredW="209" measuredH="2540" zOrder="0" locked="false" isInGroup="116">
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="925" h="2540" measuredW="925" measuredH="2540" zOrder="0" locked="false" isInGroup="116">
           <groupChildrenDescriptors>
-            <control controlID="0" controlTypeID="__group__" x="0" y="0" w="209" h="2540" measuredW="209" measuredH="2540" zOrder="0" locked="false" isInGroup="0">
+            <control controlID="0" controlTypeID="__group__" x="0" y="0" w="925" h="2540" measuredW="925" measuredH="2540" zOrder="0" locked="false" isInGroup="0">
               <groupChildrenDescriptors>
-                <control controlID="0" controlTypeID="__group__" x="0" y="0" w="209" h="2540" measuredW="209" measuredH="2540" zOrder="0" locked="false" isInGroup="0">
+                <control controlID="0" controlTypeID="__group__" x="0" y="0" w="925" h="2540" measuredW="925" measuredH="2540" zOrder="0" locked="false" isInGroup="0">
                   <groupChildrenDescriptors>
-                    <control controlID="2" controlTypeID="__group__" x="0" y="0" w="209" h="2540" measuredW="209" measuredH="2540" zOrder="0" locked="false" isInGroup="0">
+                    <control controlID="2" controlTypeID="__group__" x="0" y="0" w="925" h="2540" measuredW="925" measuredH="2540" zOrder="0" locked="false" isInGroup="0">
                       <groupChildrenDescriptors>
-                        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="209" h="2540" measuredW="209" measuredH="2540" zOrder="0" locked="false" isInGroup="2">
+                        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="925" h="2540" measuredW="925" measuredH="2540" zOrder="0" locked="false" isInGroup="2">
                           <groupChildrenDescriptors>
                             <control controlID="0" controlTypeID="__group__" x="0" y="0" w="209" h="399" measuredW="209" measuredH="399" zOrder="0" locked="false" isInGroup="0">
                               <groupChildrenDescriptors>
@@ -766,9 +766,9 @@
                                 </control>
                               </groupChildrenDescriptors>
                             </control>
-                            <control controlID="3" controlTypeID="__group__" x="0" y="1718" w="209" h="822" measuredW="209" measuredH="822" zOrder="7" locked="false" isInGroup="0">
+                            <control controlID="3" controlTypeID="__group__" x="0" y="421" w="925" h="2119" measuredW="925" measuredH="2119" zOrder="7" locked="false" isInGroup="0">
                               <groupChildrenDescriptors>
-                                <control controlID="10" controlTypeID="__group__" x="0" y="0" w="209" h="399" measuredW="209" measuredH="399" zOrder="0" locked="false" isInGroup="3">
+                                <control controlID="10" controlTypeID="__group__" x="0" y="1297" w="209" h="399" measuredW="209" measuredH="399" zOrder="0" locked="false" isInGroup="3">
                                   <groupChildrenDescriptors>
                                     <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="0" y="0" w="-1" h="-1" measuredW="209" measuredH="399" zOrder="0" locked="false" isInGroup="10">
                                       <controlProperties>
@@ -804,7 +804,7 @@
                                     </control>
                                   </groupChildrenDescriptors>
                                 </control>
-                                <control controlID="11" controlTypeID="__group__" x="0" y="423" w="209" h="399" measuredW="209" measuredH="399" zOrder="1" locked="false" isInGroup="3">
+                                <control controlID="11" controlTypeID="__group__" x="0" y="1720" w="209" h="399" measuredW="209" measuredH="399" zOrder="1" locked="false" isInGroup="3">
                                   <groupChildrenDescriptors>
                                     <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="0" y="0" w="-1" h="-1" measuredW="209" measuredH="399" zOrder="0" locked="false" isInGroup="11">
                                       <controlProperties>
@@ -823,6 +823,36 @@
                                       </controlProperties>
                                     </control>
                                     <control controlID="1" controlTypeID="__group__" x="10" y="43" w="188" h="20" measuredW="188" measuredH="20" zOrder="1" locked="false" isInGroup="11">
+                                      <groupChildrenDescriptors>
+                                        <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="0" y="0" w="188" h="20" measuredW="145" measuredH="27" zOrder="0" locked="false" isInGroup="1">
+                                          <controlProperties>
+                                            <text>Return%20to%20Main%20Menu</text>
+                                          </controlProperties>
+                                        </control>
+                                      </groupChildrenDescriptors>
+                                    </control>
+                                  </groupChildrenDescriptors>
+                                </control>
+                                <control controlID="12" controlTypeID="__group__" x="716" y="0" w="209" h="399" measuredW="209" measuredH="399" zOrder="2" locked="false" isInGroup="3">
+                                  <groupChildrenDescriptors>
+                                    <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="0" y="0" w="209" h="399" measuredW="209" measuredH="399" zOrder="0" locked="false" isInGroup="12">
+                                      <controlProperties>
+                                        <override controlID="0" x="0" y="0" w="209" h="399"/>
+                                        <override controlID="1" x="11" y="46" w="188" h="298"/>
+                                        <override controlID="2" x="76" y="369" w="16" h="16"/>
+                                        <override controlID="3" x="121" y="369" w="16" h="16"/>
+                                        <override controlID="4" x="168" y="369" w="16" h="16"/>
+                                        <override controlID="5" x="29" y="369" w="16" h="16"/>
+                                        <override controlID="6" x="58" y="349" w="91" h="20"/>
+                                        <override controlID="9" x="11" y="46" w="188" h="16"/>
+                                        <override controlID="10" x="149" y="49" w="16" h="16"/>
+                                        <override controlID="11" x="165" y="49" w="16" h="16"/>
+                                        <override controlID="12" x="181" y="49" w="16" h="16"/>
+                                        <override controlID="-1"/>
+                                        <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
+                                      </controlProperties>
+                                    </control>
+                                    <control controlID="1" controlTypeID="__group__" x="10" y="43" w="188" h="20" measuredW="188" measuredH="20" zOrder="1" locked="false" isInGroup="12">
                                       <groupChildrenDescriptors>
                                         <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="0" y="0" w="188" h="20" measuredW="145" measuredH="27" zOrder="0" locked="false" isInGroup="1">
                                           <controlProperties>
@@ -1087,7 +1117,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="132" controlTypeID="__group__" x="1112" y="524" w="399" h="448" measuredW="399" measuredH="448" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="132" controlTypeID="__group__" x="1112" y="467" w="399" h="448" measuredW="399" measuredH="448" zOrder="7" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="__group__" x="0" y="0" w="399" h="448" measuredW="399" measuredH="448" zOrder="0" locked="false" isInGroup="132">
           <groupChildrenDescriptors>
@@ -1188,6 +1218,173 @@
           </groupChildrenDescriptors>
         </control>
       </groupChildrenDescriptors>
+    </control>
+    <control controlID="133" controlTypeID="__group__" x="1555" y="44" w="209" h="399" measuredW="209" measuredH="399" zOrder="8" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="0" y="0" w="209" h="399" measuredW="209" measuredH="399" zOrder="0" locked="false" isInGroup="133">
+          <controlProperties>
+            <override controlID="0" x="0" y="0" w="209" h="399"/>
+            <override controlID="1" x="11" y="46" w="188" h="298">
+              <backgroundAlpha>1</backgroundAlpha>
+            </override>
+            <override controlID="2" x="76" y="369" w="16" h="16"/>
+            <override controlID="3" x="121" y="369" w="16" h="16"/>
+            <override controlID="4" x="168" y="369" w="16" h="16"/>
+            <override controlID="5" x="29" y="369" w="16" h="16"/>
+            <override controlID="6" x="58" y="349" w="91" h="20"/>
+            <override controlID="9" x="11" y="46" w="188" h="16"/>
+            <override controlID="10" x="149" y="49" w="16" h="16"/>
+            <override controlID="11" x="165" y="49" w="16" h="16"/>
+            <override controlID="12" x="181" y="49" w="16" h="16"/>
+            <override controlID="-1"/>
+            <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="11" y="62" w="187" h="94" measuredW="187" measuredH="94" zOrder="1" locked="false" isInGroup="133">
+          <controlProperties>
+            <bold>false</bold>
+            <borderStyle>square</borderStyle>
+            <filter>true</filter>
+            <src>./images/main_screen_rattle_the_cage%2520copy.jpg</src>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="44" y="94" w="120" h="-1" measuredW="117" measuredH="43" zOrder="2" locked="false" isInGroup="133">
+          <controlProperties>
+            <bold>true</bold>
+            <color>16777215</color>
+            <size>13</size>
+            <text>RATTLE%20THE%20CAGE</text>
+            <textOrientation>slanted</textOrientation>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="11" y="156" w="187" h="94" measuredW="186" measuredH="94" zOrder="3" locked="false" isInGroup="133">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <filter>true</filter>
+            <src>./images/Vampires%2520Kiss%2520002.JPG</src>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="132" y="163" w="-1" h="-1" measuredW="54" measuredH="26" zOrder="4" locked="false" isInGroup="133">
+          <controlProperties>
+            <bold>true</bold>
+            <color>16777215</color>
+            <text>A%2C%20B%2C%20C%u2019s</text>
+            <textOrientation>slanted</textOrientation>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="162" y="182" w="-1" h="-1" measuredW="30" measuredH="17" zOrder="5" locked="false" isInGroup="133">
+          <controlProperties>
+            <bold>true</bold>
+            <color>16777215</color>
+            <size>10</size>
+            <text>WITH</text>
+            <textOrientation>slanted</textOrientation>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="138" y="199" w="-1" h="-1" measuredW="43" measuredH="23" zOrder="6" locked="false" isInGroup="133">
+          <controlProperties>
+            <bold>true</bold>
+            <color>16777215</color>
+            <text>N%2C%20I%2C%20C%20</text>
+            <textOrientation>slanted</textOrientation>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Image" x="11" y="250" w="-1" h="-1" measuredW="187" measuredH="94" zOrder="7" locked="false" isInGroup="133">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <filter>true</filter>
+            <src>./images/moonstruck2.JPG</src>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="18" y="256" w="-1" h="-1" measuredW="70" measuredH="18" zOrder="8" locked="false" isInGroup="133">
+          <controlProperties>
+            <bold>true</bold>
+            <color>16777215</color>
+            <size>10</size>
+            <text>CAGE%20CLUES...</text>
+            <textOrientation>right</textOrientation>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="124" y="260" w="-1" h="-1" measuredW="40" measuredH="22" zOrder="9" locked="false" isInGroup="133">
+          <controlProperties>
+            <bold>true</bold>
+            <color>16777215</color>
+            <text>WHAT</text>
+            <textOrientation>slanted</textOrientation>
+          </controlProperties>
+        </control>
+        <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="138" y="271" w="-1" h="-1" measuredW="44" measuredH="21" zOrder="10" locked="false" isInGroup="133">
+          <controlProperties>
+            <bold>true</bold>
+            <color>16777215</color>
+            <text>DID%20HE</text>
+            <textOrientation>right</textOrientation>
+          </controlProperties>
+        </control>
+        <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="164" y="288" w="-1" h="-1" measuredW="21" measuredH="42" zOrder="11" locked="false" isInGroup="133">
+          <controlProperties>
+            <bold>true</bold>
+            <color>16777215</color>
+            <text>LOSE%3F</text>
+            <textOrientation>down</textOrientation>
+          </controlProperties>
+        </control>
+        <control controlID="12" controlTypeID="com.balsamiq.mockups::ButtonBar" x="11" y="47" w="188" h="19" measuredW="185" measuredH="22" zOrder="12" locked="false" isInGroup="133">
+          <controlProperties>
+            <selectedIndex>-1</selectedIndex>
+            <size>8</size>
+            <text>Settings%2C%20Help%2C%20Scores%2C%20About%2C%20Exit</text>
+          </controlProperties>
+        </control>
+        <control controlID="15" controlTypeID="com.balsamiq.mockups::RoundButton" x="92" y="49" w="40" h="13" measuredW="32" measuredH="32" zOrder="13" locked="false" isInGroup="133">
+          <controlProperties>
+            <backgroundAlpha>0.5</backgroundAlpha>
+            <borderColor>0</borderColor>
+            <color>13576743</color>
+            <shape>rectangle</shape>
+            <text/>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="134" controlTypeID="com.balsamiq.mockups::TextArea" x="1569" y="525" w="188" h="282" measuredW="200" measuredH="140" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>true</bold>
+        <color>0</color>
+        <size>14</size>
+        <text>Do%20you%20REALLY%20get%20NICOLAS%20CAGE%3F%0A%20%0A%20%0A%20%0A%20%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="136" controlTypeID="com.balsamiq.mockups::TextArea" x="1582" y="575" w="162" h="58" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <bold>false</bold>
+        <borderColor>13576743</borderColor>
+        <color>0</color>
+        <size>9</size>
+        <text>Did%20you%20have%20the%20courage%20to%20face%20the%20darkest%20depths%20of%20his%20harrowing%20yet%20admirable%20insanity%20in%20RATTLE%20THE%20CAGE%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="137" controlTypeID="com.balsamiq.mockups::TextArea" x="1582" y="648" w="162" h="43" measuredW="200" measuredH="140" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <bold>false</bold>
+        <borderColor>10027263</borderColor>
+        <color>0</color>
+        <size>9</size>
+        <text>Were%20you%20in%20tune%20with%20his%20wild%20antics%20in%20A%2C%20B%2C%20C%27s%20with%20N%2C%20I%2C%20C%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="138" controlTypeID="com.balsamiq.mockups::TextArea" x="1582" y="706" w="162" h="79" measuredW="200" measuredH="140" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <bold>false</bold>
+        <borderColor>16776960</borderColor>
+        <color>0</color>
+        <size>9</size>
+        <text>How%20well%20do%20you%20understand%20the%20complex%20and%20singular%20enigma%20that%20is%20Nicolas%20Cage%2C%20the%20passionate%20and%20fearless%20soul%20of%20Nicolas%20Cage%2C%20within%20or%20without%20the%20context%20of%20WHAT%20DID%20NICOLAS%20CAGE%20LOSE%3F</text>
+      </controlProperties>
     </control>
   </controls>
 </mockup>

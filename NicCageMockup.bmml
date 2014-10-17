@@ -6,16 +6,15 @@
           <controlProperties>
             <override controlID="0" x="0" y="0" w="209" h="399"/>
             <override controlID="1" x="11" y="46" w="187" h="298"/>
+            <override controlID="2" x="76" y="369" w="16" h="16"/>
             <override controlID="3" x="120" y="369" w="16" h="16"/>
             <override controlID="4" x="168" y="369" w="16" h="16"/>
             <override controlID="5" x="30" y="369" w="16" h="16"/>
             <override controlID="6" x="59" y="348" w="91" h="20"/>
             <override controlID="9" x="11" y="46" w="187" h="17"/>
-            <override controlID="2" x="76" y="369" w="16" h="16"/>
+            <override controlID="10" x="150" y="50" w="16" h="16"/>
             <override controlID="11" x="165" y="50" w="16" h="16"/>
             <override controlID="12" x="181" y="50" w="16" h="16"/>
-            <override controlID="10" x="150" y="50" w="16" h="16"/>
-            <override controlID="-1"/>
             <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
           </controlProperties>
         </control>
@@ -40,16 +39,15 @@
             <override controlID="1" x="11" y="46" w="188" h="298">
               <backgroundAlpha>1</backgroundAlpha>
             </override>
+            <override controlID="2" x="76" y="369" w="16" h="16"/>
             <override controlID="3" x="121" y="369" w="16" h="16"/>
             <override controlID="4" x="168" y="369" w="16" h="16"/>
             <override controlID="5" x="29" y="369" w="16" h="16"/>
             <override controlID="6" x="58" y="349" w="91" h="20"/>
             <override controlID="9" x="11" y="46" w="188" h="16"/>
-            <override controlID="2" x="76" y="369" w="16" h="16"/>
+            <override controlID="10" x="149" y="49" w="16" h="16"/>
             <override controlID="11" x="165" y="49" w="16" h="16"/>
             <override controlID="12" x="181" y="49" w="16" h="16"/>
-            <override controlID="10" x="149" y="49" w="16" h="16"/>
-            <override controlID="-1"/>
             <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
           </controlProperties>
         </control>
@@ -159,15 +157,16 @@
             <override controlID="1" x="11" y="46" w="188" h="298">
               <backgroundAlpha>1</backgroundAlpha>
             </override>
+            <override controlID="2" x="76" y="369" w="16" h="16"/>
             <override controlID="3" x="121" y="369" w="16" h="16"/>
             <override controlID="4" x="168" y="369" w="16" h="16"/>
             <override controlID="5" x="29" y="369" w="16" h="16"/>
             <override controlID="6" x="58" y="349" w="91" h="20"/>
             <override controlID="9" x="11" y="46" w="188" h="16"/>
-            <override controlID="2" x="76" y="369" w="16" h="16"/>
+            <override controlID="10" x="149" y="49" w="16" h="16"/>
             <override controlID="11" x="165" y="49" w="16" h="16"/>
             <override controlID="12" x="181" y="49" w="16" h="16"/>
-            <override controlID="10" x="149" y="49" w="16" h="16"/>
+            <override controlID="-1"/>
             <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
           </controlProperties>
         </control>
@@ -310,16 +309,15 @@
                                                           <controlProperties>
                                                             <override controlID="0" x="0" y="0" w="209" h="399"/>
                                                             <override controlID="1" x="11" y="46" w="188" h="298"/>
+                                                            <override controlID="2" x="76" y="369" w="16" h="16"/>
                                                             <override controlID="3" x="121" y="369" w="16" h="16"/>
                                                             <override controlID="4" x="168" y="369" w="16" h="16"/>
                                                             <override controlID="5" x="29" y="369" w="16" h="16"/>
                                                             <override controlID="6" x="58" y="349" w="91" h="20"/>
                                                             <override controlID="9" x="11" y="46" w="188" h="16"/>
-                                                            <override controlID="2" x="76" y="369" w="16" h="16"/>
+                                                            <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                             <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                             <override controlID="12" x="181" y="49" w="16" h="16"/>
-                                                            <override controlID="10" x="149" y="49" w="16" h="16"/>
-                                                            <override controlID="-1"/>
                                                             <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                           </controlProperties>
                                                         </control>
@@ -373,16 +371,15 @@
                                                           <controlProperties>
                                                             <override controlID="0" x="0" y="0" w="209" h="399"/>
                                                             <override controlID="1" x="10" y="46" w="187" h="298"/>
+                                                            <override controlID="2" x="75" y="369" w="16" h="16"/>
                                                             <override controlID="3" x="121" y="369" w="16" h="16"/>
                                                             <override controlID="4" x="168" y="369" w="16" h="16"/>
                                                             <override controlID="5" x="29" y="369" w="16" h="16"/>
                                                             <override controlID="6" x="58" y="349" w="91" h="20"/>
                                                             <override controlID="9" x="10" y="46" w="187" h="17"/>
-                                                            <override controlID="2" x="75" y="369" w="16" h="16"/>
+                                                            <override controlID="10" x="150" y="49" w="16" h="16"/>
                                                             <override controlID="11" x="164" y="49" w="16" h="16"/>
                                                             <override controlID="12" x="182" y="49" w="16" h="16"/>
-                                                            <override controlID="10" x="150" y="49" w="16" h="16"/>
-                                                            <override controlID="-1"/>
                                                             <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                           </controlProperties>
                                                         </control>
@@ -407,16 +404,15 @@
                                                       <controlProperties>
                                                         <override controlID="0" x="0" y="0" w="209" h="399"/>
                                                         <override controlID="1" x="11" y="46" w="188" h="298"/>
+                                                        <override controlID="2" x="76" y="369" w="16" h="16"/>
                                                         <override controlID="3" x="121" y="369" w="16" h="16"/>
                                                         <override controlID="4" x="168" y="369" w="16" h="16"/>
                                                         <override controlID="5" x="29" y="369" w="16" h="16"/>
                                                         <override controlID="6" x="58" y="349" w="91" h="20"/>
                                                         <override controlID="9" x="11" y="46" w="188" h="16"/>
-                                                        <override controlID="2" x="76" y="369" w="16" h="16"/>
+                                                        <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                         <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                         <override controlID="12" x="181" y="49" w="16" h="16"/>
-                                                        <override controlID="10" x="149" y="49" w="16" h="16"/>
-                                                        <override controlID="-1"/>
                                                         <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                       </controlProperties>
                                                     </control>
@@ -439,16 +435,15 @@
                                                       <controlProperties>
                                                         <override controlID="0" x="0" y="0" w="209" h="399"/>
                                                         <override controlID="1" x="11" y="46" w="189" h="298"/>
+                                                        <override controlID="2" x="76" y="369" w="16" h="16"/>
                                                         <override controlID="3" x="121" y="369" w="16" h="16"/>
                                                         <override controlID="4" x="167" y="369" w="16" h="16"/>
                                                         <override controlID="5" x="29" y="369" w="16" h="16"/>
                                                         <override controlID="6" x="57" y="349" w="92" h="20"/>
                                                         <override controlID="9" x="11" y="46" w="189" h="16"/>
-                                                        <override controlID="2" x="76" y="369" w="16" h="16"/>
+                                                        <override controlID="10" x="150" y="49" w="16" h="16"/>
                                                         <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                         <override controlID="12" x="182" y="49" w="16" h="16"/>
-                                                        <override controlID="10" x="150" y="49" w="16" h="16"/>
-                                                        <override controlID="-1"/>
                                                         <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                       </controlProperties>
                                                     </control>
@@ -471,16 +466,15 @@
                                                       <controlProperties>
                                                         <override controlID="0" x="0" y="0" w="209" h="399"/>
                                                         <override controlID="1" x="11" y="46" w="188" h="298"/>
+                                                        <override controlID="2" x="76" y="369" w="16" h="16"/>
                                                         <override controlID="3" x="121" y="369" w="16" h="16"/>
                                                         <override controlID="4" x="168" y="369" w="16" h="16"/>
                                                         <override controlID="5" x="29" y="369" w="16" h="16"/>
                                                         <override controlID="6" x="58" y="349" w="91" h="20"/>
                                                         <override controlID="9" x="11" y="46" w="188" h="16"/>
-                                                        <override controlID="2" x="76" y="369" w="16" h="16"/>
+                                                        <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                         <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                         <override controlID="12" x="181" y="49" w="16" h="16"/>
-                                                        <override controlID="10" x="149" y="49" w="16" h="16"/>
-                                                        <override controlID="-1"/>
                                                         <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                       </controlProperties>
                                                     </control>
@@ -574,15 +568,16 @@
             <override controlID="1" x="11" y="46" w="188" h="298">
               <backgroundAlpha>1</backgroundAlpha>
             </override>
+            <override controlID="2" x="76" y="369" w="16" h="16"/>
             <override controlID="3" x="121" y="369" w="16" h="16"/>
             <override controlID="4" x="168" y="369" w="16" h="16"/>
             <override controlID="5" x="29" y="369" w="16" h="16"/>
             <override controlID="6" x="58" y="349" w="91" h="20"/>
             <override controlID="9" x="11" y="46" w="188" h="16"/>
-            <override controlID="2" x="76" y="369" w="16" h="16"/>
+            <override controlID="10" x="149" y="49" w="16" h="16"/>
             <override controlID="11" x="165" y="49" w="16" h="16"/>
             <override controlID="12" x="181" y="49" w="16" h="16"/>
-            <override controlID="10" x="149" y="49" w="16" h="16"/>
+            <override controlID="-1"/>
             <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
           </controlProperties>
         </control>
@@ -701,11 +696,11 @@
                         <override controlID="13" x="370" y="70" w="16" h="16"/>
                         <override controlID="14" x="370" y="19" w="16" h="16"/>
                         <override controlID="15" x="370" y="172" w="16" h="16"/>
-                        <override controlID="-1"/>
+                        <override controlID="11:1" x="2" y="40" w="16" h="16"/>
                         <override controlID="11:3" x="2" y="5" w="16" h="16"/>
                         <override controlID="11:2" x="2" y="24" w="16" h="16"/>
                         <override controlID="11:0" x="0" y="0" w="16" h="188"/>
-                        <override controlID="11:1" x="2" y="40" w="16" h="16"/>
+                        <override controlID="-1"/>
                         <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S%20Landscape</src>
                       </controlProperties>
                     </control>
@@ -740,11 +735,11 @@
                         <override controlID="13" x="369" y="70" w="16" h="16"/>
                         <override controlID="14" x="369" y="19" w="16" h="16"/>
                         <override controlID="15" x="369" y="172" w="16" h="16"/>
-                        <override controlID="-1"/>
+                        <override controlID="11:1" x="1" y="40" w="16" h="16"/>
                         <override controlID="11:3" x="1" y="4" w="16" h="16"/>
                         <override controlID="11:2" x="1" y="23" w="16" h="16"/>
                         <override controlID="11:0" x="0" y="0" w="16" h="188"/>
-                        <override controlID="11:1" x="1" y="40" w="16" h="16"/>
+                        <override controlID="-1"/>
                         <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S%20Landscape</src>
                       </controlProperties>
                     </control>
@@ -793,15 +788,16 @@
             <override controlID="1" x="11" y="46" w="188" h="298">
               <backgroundAlpha>1</backgroundAlpha>
             </override>
+            <override controlID="2" x="76" y="369" w="16" h="16"/>
             <override controlID="3" x="121" y="369" w="16" h="16"/>
             <override controlID="4" x="168" y="369" w="16" h="16"/>
             <override controlID="5" x="29" y="369" w="16" h="16"/>
             <override controlID="6" x="58" y="349" w="91" h="20"/>
             <override controlID="9" x="11" y="46" w="188" h="16"/>
-            <override controlID="2" x="76" y="369" w="16" h="16"/>
+            <override controlID="10" x="149" y="49" w="16" h="16"/>
             <override controlID="11" x="165" y="49" w="16" h="16"/>
             <override controlID="12" x="181" y="49" w="16" h="16"/>
-            <override controlID="10" x="149" y="49" w="16" h="16"/>
+            <override controlID="-1"/>
             <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
           </controlProperties>
         </control>
@@ -958,16 +954,15 @@
                                                                                         <override controlID="1" x="11" y="46" w="188" h="298">
                                                                                           <backgroundAlpha>1</backgroundAlpha>
                                                                                         </override>
+                                                                                        <override controlID="2" x="76" y="369" w="16" h="16"/>
                                                                                         <override controlID="3" x="121" y="369" w="16" h="16"/>
                                                                                         <override controlID="4" x="168" y="369" w="16" h="16"/>
                                                                                         <override controlID="5" x="29" y="369" w="16" h="16"/>
                                                                                         <override controlID="6" x="58" y="349" w="91" h="20"/>
                                                                                         <override controlID="9" x="11" y="46" w="188" h="16"/>
-                                                                                        <override controlID="2" x="76" y="369" w="16" h="16"/>
+                                                                                        <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                                                         <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                                                         <override controlID="12" x="181" y="49" w="16" h="16"/>
-                                                                                        <override controlID="10" x="149" y="49" w="16" h="16"/>
-                                                                                        <override controlID="-1"/>
                                                                                         <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                                                       </controlProperties>
                                                                                     </control>
@@ -1074,15 +1069,16 @@
                                                                                       <controlProperties>
                                                                                         <override controlID="0" x="0" y="0" w="209" h="399"/>
                                                                                         <override controlID="1" x="11" y="46" w="188" h="298"/>
+                                                                                        <override controlID="2" x="76" y="369" w="16" h="16"/>
                                                                                         <override controlID="3" x="121" y="369" w="16" h="16"/>
                                                                                         <override controlID="4" x="168" y="369" w="16" h="16"/>
                                                                                         <override controlID="5" x="29" y="369" w="16" h="16"/>
                                                                                         <override controlID="6" x="58" y="349" w="91" h="20"/>
                                                                                         <override controlID="9" x="11" y="46" w="188" h="16"/>
-                                                                                        <override controlID="2" x="76" y="369" w="16" h="16"/>
+                                                                                        <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                                                         <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                                                         <override controlID="12" x="181" y="49" w="16" h="16"/>
-                                                                                        <override controlID="10" x="149" y="49" w="16" h="16"/>
+                                                                                        <override controlID="-1"/>
                                                                                         <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                                                       </controlProperties>
                                                                                     </control>
@@ -1152,15 +1148,16 @@
                                                                                           <controlProperties>
                                                                                             <override controlID="0" x="0" y="0" w="209" h="399"/>
                                                                                             <override controlID="1" x="11" y="46" w="188" h="298"/>
+                                                                                            <override controlID="2" x="76" y="369" w="16" h="16"/>
                                                                                             <override controlID="3" x="121" y="369" w="16" h="16"/>
                                                                                             <override controlID="4" x="168" y="369" w="16" h="16"/>
                                                                                             <override controlID="5" x="29" y="369" w="16" h="16"/>
                                                                                             <override controlID="6" x="58" y="349" w="91" h="20"/>
                                                                                             <override controlID="9" x="11" y="46" w="188" h="16"/>
-                                                                                            <override controlID="2" x="76" y="369" w="16" h="16"/>
+                                                                                            <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                                                             <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                                                             <override controlID="12" x="181" y="49" w="16" h="16"/>
-                                                                                            <override controlID="10" x="149" y="49" w="16" h="16"/>
+                                                                                            <override controlID="-1"/>
                                                                                             <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                                                           </controlProperties>
                                                                                         </control>
@@ -1187,16 +1184,15 @@
                                                                                           <controlProperties>
                                                                                             <override controlID="0" x="0" y="0" w="209" h="399"/>
                                                                                             <override controlID="1" x="11" y="46" w="188" h="298"/>
+                                                                                            <override controlID="2" x="76" y="369" w="16" h="16"/>
                                                                                             <override controlID="3" x="121" y="369" w="16" h="16"/>
                                                                                             <override controlID="4" x="168" y="369" w="16" h="16"/>
                                                                                             <override controlID="5" x="29" y="369" w="16" h="16"/>
                                                                                             <override controlID="6" x="58" y="349" w="91" h="20"/>
                                                                                             <override controlID="9" x="11" y="46" w="188" h="16"/>
-                                                                                            <override controlID="2" x="76" y="369" w="16" h="16"/>
+                                                                                            <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                                                             <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                                                             <override controlID="12" x="181" y="49" w="16" h="16"/>
-                                                                                            <override controlID="10" x="149" y="49" w="16" h="16"/>
-                                                                                            <override controlID="-1"/>
                                                                                             <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                                                           </controlProperties>
                                                                                         </control>
@@ -1217,15 +1213,16 @@
                                                                                           <controlProperties>
                                                                                             <override controlID="0" x="0" y="0" w="209" h="399"/>
                                                                                             <override controlID="1" x="11" y="46" w="188" h="298"/>
+                                                                                            <override controlID="2" x="76" y="369" w="16" h="16"/>
                                                                                             <override controlID="3" x="121" y="369" w="16" h="16"/>
                                                                                             <override controlID="4" x="168" y="369" w="16" h="16"/>
                                                                                             <override controlID="5" x="29" y="369" w="16" h="16"/>
                                                                                             <override controlID="6" x="58" y="349" w="91" h="20"/>
                                                                                             <override controlID="9" x="11" y="46" w="188" h="16"/>
-                                                                                            <override controlID="2" x="76" y="369" w="16" h="16"/>
+                                                                                            <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                                                             <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                                                             <override controlID="12" x="181" y="49" w="16" h="16"/>
-                                                                                            <override controlID="10" x="149" y="49" w="16" h="16"/>
+                                                                                            <override controlID="-1"/>
                                                                                             <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                                                           </controlProperties>
                                                                                         </control>
@@ -1244,15 +1241,16 @@
                                                                                               <controlProperties>
                                                                                                 <override controlID="0" x="0" y="0" w="209" h="399"/>
                                                                                                 <override controlID="1" x="11" y="46" w="188" h="298"/>
+                                                                                                <override controlID="2" x="76" y="369" w="16" h="16"/>
                                                                                                 <override controlID="3" x="121" y="369" w="16" h="16"/>
                                                                                                 <override controlID="4" x="168" y="369" w="16" h="16"/>
                                                                                                 <override controlID="5" x="29" y="369" w="16" h="16"/>
                                                                                                 <override controlID="6" x="58" y="349" w="91" h="20"/>
                                                                                                 <override controlID="9" x="11" y="46" w="188" h="16"/>
-                                                                                                <override controlID="2" x="76" y="369" w="16" h="16"/>
+                                                                                                <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                                                                 <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                                                                 <override controlID="12" x="181" y="49" w="16" h="16"/>
-                                                                                                <override controlID="10" x="149" y="49" w="16" h="16"/>
+                                                                                                <override controlID="-1"/>
                                                                                                 <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                                                               </controlProperties>
                                                                                             </control>
@@ -1273,16 +1271,15 @@
                                                                                               <controlProperties>
                                                                                                 <override controlID="0" x="0" y="0" w="209" h="399"/>
                                                                                                 <override controlID="1" x="11" y="46" w="188" h="298"/>
+                                                                                                <override controlID="2" x="76" y="369" w="16" h="16"/>
                                                                                                 <override controlID="3" x="121" y="369" w="16" h="16"/>
                                                                                                 <override controlID="4" x="168" y="369" w="16" h="16"/>
                                                                                                 <override controlID="5" x="29" y="369" w="16" h="16"/>
                                                                                                 <override controlID="6" x="58" y="349" w="91" h="20"/>
                                                                                                 <override controlID="9" x="11" y="46" w="188" h="16"/>
-                                                                                                <override controlID="2" x="76" y="369" w="16" h="16"/>
+                                                                                                <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                                                                 <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                                                                 <override controlID="12" x="181" y="49" w="16" h="16"/>
-                                                                                                <override controlID="10" x="149" y="49" w="16" h="16"/>
-                                                                                                <override controlID="-1"/>
                                                                                                 <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                                                               </controlProperties>
                                                                                             </control>
@@ -1303,15 +1300,16 @@
                                                                                               <controlProperties>
                                                                                                 <override controlID="0" x="0" y="0" w="209" h="399"/>
                                                                                                 <override controlID="1" x="11" y="46" w="188" h="298"/>
+                                                                                                <override controlID="2" x="76" y="369" w="16" h="16"/>
                                                                                                 <override controlID="3" x="121" y="369" w="16" h="16"/>
                                                                                                 <override controlID="4" x="168" y="369" w="16" h="16"/>
                                                                                                 <override controlID="5" x="29" y="369" w="16" h="16"/>
                                                                                                 <override controlID="6" x="58" y="349" w="91" h="20"/>
                                                                                                 <override controlID="9" x="11" y="46" w="188" h="16"/>
-                                                                                                <override controlID="2" x="76" y="369" w="16" h="16"/>
+                                                                                                <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                                                                 <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                                                                 <override controlID="12" x="181" y="49" w="16" h="16"/>
-                                                                                                <override controlID="10" x="149" y="49" w="16" h="16"/>
+                                                                                                <override controlID="-1"/>
                                                                                                 <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                                                               </controlProperties>
                                                                                             </control>
@@ -1336,16 +1334,15 @@
                                                                                       <controlProperties>
                                                                                         <override controlID="0" x="0" y="0" w="209" h="399"/>
                                                                                         <override controlID="1" x="11" y="46" w="188" h="298"/>
+                                                                                        <override controlID="2" x="76" y="369" w="16" h="16"/>
                                                                                         <override controlID="3" x="121" y="369" w="16" h="16"/>
                                                                                         <override controlID="4" x="168" y="369" w="16" h="16"/>
                                                                                         <override controlID="5" x="29" y="369" w="16" h="16"/>
                                                                                         <override controlID="6" x="58" y="349" w="91" h="20"/>
                                                                                         <override controlID="9" x="11" y="46" w="188" h="16"/>
-                                                                                        <override controlID="2" x="76" y="369" w="16" h="16"/>
+                                                                                        <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                                                         <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                                                         <override controlID="12" x="181" y="49" w="16" h="16"/>
-                                                                                        <override controlID="10" x="149" y="49" w="16" h="16"/>
-                                                                                        <override controlID="-1"/>
                                                                                         <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                                                       </controlProperties>
                                                                                     </control>
@@ -1376,16 +1373,15 @@
                                                                                   <controlProperties>
                                                                                     <override controlID="0" x="0" y="0" w="209" h="399"/>
                                                                                     <override controlID="1" x="11" y="46" w="188" h="298"/>
+                                                                                    <override controlID="2" x="76" y="369" w="16" h="16"/>
                                                                                     <override controlID="3" x="121" y="369" w="16" h="16"/>
                                                                                     <override controlID="4" x="168" y="369" w="16" h="16"/>
                                                                                     <override controlID="5" x="29" y="369" w="16" h="16"/>
                                                                                     <override controlID="6" x="58" y="349" w="91" h="20"/>
                                                                                     <override controlID="9" x="11" y="46" w="188" h="16"/>
-                                                                                    <override controlID="2" x="76" y="369" w="16" h="16"/>
+                                                                                    <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                                                     <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                                                     <override controlID="12" x="181" y="49" w="16" h="16"/>
-                                                                                    <override controlID="10" x="149" y="49" w="16" h="16"/>
-                                                                                    <override controlID="-1"/>
                                                                                     <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                                                   </controlProperties>
                                                                                 </control>
@@ -1427,6 +1423,7 @@
                                                                                         <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                                                         <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                                                         <override controlID="12" x="181" y="49" w="16" h="16"/>
+                                                                                        <override controlID="-1"/>
                                                                                         <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                                                       </controlProperties>
                                                                                     </control>
@@ -1551,6 +1548,7 @@
                                                                                             <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                                                             <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                                                             <override controlID="12" x="181" y="49" w="16" h="16"/>
+                                                                                            <override controlID="-1"/>
                                                                                             <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                                                           </controlProperties>
                                                                                         </control>
@@ -1677,6 +1675,7 @@
                                                                                             <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                                                             <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                                                             <override controlID="12" x="181" y="49" w="16" h="16"/>
+                                                                                            <override controlID="-1"/>
                                                                                             <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                                                           </controlProperties>
                                                                                         </control>
@@ -1803,6 +1802,7 @@
                                                                                             <override controlID="10" x="149" y="49" w="16" h="16"/>
                                                                                             <override controlID="11" x="165" y="49" w="16" h="16"/>
                                                                                             <override controlID="12" x="181" y="49" w="16" h="16"/>
+                                                                                            <override controlID="-1"/>
                                                                                             <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                                                                                           </controlProperties>
                                                                                         </control>
@@ -2083,6 +2083,7 @@
                 <override controlID="10" x="150" y="50" w="16" h="16"/>
                 <override controlID="11" x="165" y="50" w="16" h="16"/>
                 <override controlID="12" x="181" y="50" w="16" h="16"/>
+                <override controlID="-1"/>
                 <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
               </controlProperties>
             </control>
@@ -2108,6 +2109,7 @@
                 <override controlID="10" x="150" y="50" w="16" h="16"/>
                 <override controlID="11" x="165" y="50" w="16" h="16"/>
                 <override controlID="12" x="181" y="50" w="16" h="16"/>
+                <override controlID="-1"/>
                 <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
               </controlProperties>
             </control>
@@ -2154,7 +2156,6 @@
                     <override controlID="10" x="150" y="50" w="16" h="16"/>
                     <override controlID="11" x="165" y="50" w="16" h="16"/>
                     <override controlID="12" x="181" y="50" w="16" h="16"/>
-                    <override controlID="-1"/>
                     <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
                   </controlProperties>
                 </control>
@@ -2221,7 +2222,6 @@
                 <override controlID="10" x="150" y="50" w="16" h="16"/>
                 <override controlID="11" x="165" y="50" w="16" h="16"/>
                 <override controlID="12" x="181" y="50" w="16" h="16"/>
-                <override controlID="-1"/>
                 <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
               </controlProperties>
             </control>
@@ -2250,6 +2250,80 @@
           </groupChildrenDescriptors>
         </control>
       </groupChildrenDescriptors>
+    </control>
+    <control controlID="151" controlTypeID="com.balsamiq.mockups::Component" x="2329" y="915" w="224" h="409" measuredW="224" measuredH="409" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0" x="0" y="0" w="224" h="409"/>
+        <override controlID="1" x="11" y="48" w="201" h="305"/>
+        <override controlID="2" x="81" y="378" w="16" h="16"/>
+        <override controlID="3" x="130" y="378" w="16" h="16"/>
+        <override controlID="4" x="180" y="378" w="16" h="16"/>
+        <override controlID="5" x="31" y="378" w="16" h="16"/>
+        <override controlID="6" x="62" y="357" w="98" h="20"/>
+        <override controlID="9" x="11" y="48" w="201" h="17"/>
+        <override controlID="10" x="160" y="51" w="16" h="16"/>
+        <override controlID="11" x="176" y="51" w="16" h="16"/>
+        <override controlID="12" x="194" y="51" w="16" h="16"/>
+        <override controlID="-1"/>
+        <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
+      </controlProperties>
+    </control>
+    <control controlID="152" controlTypeID="com.balsamiq.mockups::Label" x="2394" y="989" w="-1" h="-1" measuredW="94" measuredH="36" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>28</size>
+        <text>Scores</text>
+      </controlProperties>
+    </control>
+    <control controlID="153" controlTypeID="com.balsamiq.mockups::Label" x="2389" y="1040" w="-1" h="-1" measuredW="105" measuredH="22" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>14</size>
+        <text>Rattle%20The%20Cage</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="154" controlTypeID="com.balsamiq.mockups::Label" x="2365" y="1062" w="-1" h="-1" measuredW="153" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Recent%3A%20198%20%09High%3A%20250</text>
+      </controlProperties>
+    </control>
+    <control controlID="155" controlTypeID="com.balsamiq.mockups::Label" x="2378" y="1098" w="-1" h="-1" measuredW="127" measuredH="22" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>A%2C%20B%2C%20C%27s%20with%20N%2C%20I%2C%20C</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="156" controlTypeID="com.balsamiq.mockups::Label" x="2365" y="1120" w="-1" h="-1" measuredW="153" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Recent%3A%20198%20%09High%3A%20250</text>
+      </controlProperties>
+    </control>
+    <control controlID="157" controlTypeID="com.balsamiq.mockups::Label" x="2344" y="1149" w="-1" h="-1" measuredW="194" measuredH="22" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Cage%20Clues%3A%20What%20did%20he%20lose%3F</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="158" controlTypeID="com.balsamiq.mockups::Label" x="2365" y="1171" w="-1" h="-1" measuredW="153" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Recent%3A%20198%20%09High%3A%20250</text>
+      </controlProperties>
+    </control>
+    <control controlID="159" controlTypeID="com.balsamiq.mockups::PointyButton" x="2386" y="1232" w="-1" h="-1" measuredW="110" measuredH="27" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <direction>left</direction>
+        <newLayout>true</newLayout>
+        <text>Home%20Screen</text>
+      </controlProperties>
+    </control>
+    <control controlID="160" controlTypeID="com.balsamiq.mockups::Button" x="2386" y="1192" w="-1" h="-1" measuredW="103" measuredH="27" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Reset%20Scores</text>
+      </controlProperties>
     </control>
   </controls>
 </mockup>

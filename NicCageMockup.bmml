@@ -1,3 +1,165 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="0" measuredH="0" mockupW="0" mockupH="0">
-  <controls/>
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1059" measuredH="444" mockupW="999" mockupH="424">
+  <controls>
+    <control controlID="2" controlTypeID="__group__" x="240" y="45" w="209" h="399" measuredW="209" measuredH="399" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="0" y="0" w="209" h="399" measuredW="209" measuredH="399" zOrder="0" locked="false" isInGroup="2">
+          <controlProperties>
+            <override controlID="0" x="0" y="0" w="209" h="399"/>
+            <override controlID="1" x="11" y="46" w="187" h="298"/>
+            <override controlID="2" x="76" y="369" w="16" h="16"/>
+            <override controlID="3" x="120" y="369" w="16" h="16"/>
+            <override controlID="4" x="168" y="369" w="16" h="16"/>
+            <override controlID="5" x="30" y="369" w="16" h="16"/>
+            <override controlID="6" x="59" y="348" w="91" h="20"/>
+            <override controlID="9" x="11" y="46" w="187" h="17"/>
+            <override controlID="10" x="150" y="50" w="16" h="16"/>
+            <override controlID="11" x="165" y="50" w="16" h="16"/>
+            <override controlID="12" x="181" y="50" w="16" h="16"/>
+            <override controlID="-1"/>
+            <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="11" y="46" w="188" h="298" measuredW="195" measuredH="320" zOrder="1" locked="false" isInGroup="2">
+          <controlProperties>
+            <src>./images/Season-Witch-Cage_240.jpg</src>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Component" x="539" y="44" w="209" h="399" measuredW="209" measuredH="399" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0" x="0" y="0" w="209" h="399"/>
+        <override controlID="1" x="11" y="46" w="188" h="298">
+          <backgroundAlpha>1</backgroundAlpha>
+        </override>
+        <override controlID="2" x="76" y="369" w="16" h="16"/>
+        <override controlID="3" x="121" y="369" w="16" h="16"/>
+        <override controlID="4" x="168" y="369" w="16" h="16"/>
+        <override controlID="5" x="29" y="369" w="16" h="16"/>
+        <override controlID="6" x="58" y="349" w="91" h="20"/>
+        <override controlID="9" x="11" y="46" w="188" h="16"/>
+        <override controlID="10" x="149" y="49" w="16" h="16"/>
+        <override controlID="11" x="165" y="49" w="16" h="16"/>
+        <override controlID="12" x="181" y="49" w="16" h="16"/>
+        <override controlID="-1"/>
+        <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="550" y="106" w="187" h="94" measuredW="187" measuredH="94" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <borderStyle>square</borderStyle>
+        <src>./images/main_screen_rattle_the_cage%2520copy.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Component" x="850" y="45" w="209" h="399" measuredW="209" measuredH="399" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0" x="0" y="0" w="209" h="399"/>
+        <override controlID="1" x="11" y="46" w="188" h="298"/>
+        <override controlID="2" x="76" y="369" w="16" h="16"/>
+        <override controlID="3" x="121" y="369" w="16" h="16"/>
+        <override controlID="4" x="168" y="369" w="16" h="16"/>
+        <override controlID="5" x="29" y="369" w="16" h="16"/>
+        <override controlID="6" x="58" y="349" w="91" h="20"/>
+        <override controlID="9" x="11" y="46" w="188" h="16"/>
+        <override controlID="10" x="149" y="49" w="16" h="16"/>
+        <override controlID="11" x="165" y="49" w="16" h="16"/>
+        <override controlID="12" x="181" y="49" w="16" h="16"/>
+        <override controlID="-1"/>
+        <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="583" y="138" w="120" h="-1" measuredW="117" measuredH="43" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>13</size>
+        <text>RATTLE%20THE%20CAGE</text>
+        <textOrientation>slanted</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Image" x="550" y="200" w="187" h="94" measuredW="186" measuredH="94" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <src>./images/Vampires%2520Kiss%2520002.JPG</src>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="671" y="207" w="-1" h="-1" measuredW="54" measuredH="26" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <text>A%2C%20B%2C%20C%u2019s</text>
+        <textOrientation>slanted</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="701" y="226" w="-1" h="-1" measuredW="30" measuredH="17" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>10</size>
+        <text>WITH</text>
+        <textOrientation>slanted</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="60" y="20" w="-1" h="-1" measuredW="64" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="677" y="243" w="-1" h="-1" measuredW="43" measuredH="23" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <text>N%2C%20I%2C%20C%20</text>
+        <textOrientation>slanted</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Image" x="550" y="294" w="-1" h="-1" measuredW="187" measuredH="94" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <src>./images/moonstruck2.JPG</src>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="557" y="300" w="-1" h="-1" measuredW="70" measuredH="18" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>10</size>
+        <text>CAGE%20CLUES...</text>
+        <textOrientation>right</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="663" y="304" w="-1" h="-1" measuredW="40" measuredH="22" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <text>WHAT</text>
+        <textOrientation>slanted</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="677" y="315" w="-1" h="-1" measuredW="44" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <text>DID%20HE</text>
+        <textOrientation>right</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="703" y="332" w="-1" h="-1" measuredW="21" measuredH="42" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <text>LOSE%3F</text>
+        <textOrientation>down</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::ButtonBar" x="550" y="90" w="188" h="16" measuredW="181" measuredH="22" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>-1</selectedIndex>
+        <size>8</size>
+        <text>Settings%2C%20Help%2C%20Score%2C%20About%2C%20Exit</text>
+      </controlProperties>
+    </control>
+  </controls>
 </mockup>

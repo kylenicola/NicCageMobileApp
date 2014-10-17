@@ -2379,12 +2379,12 @@
                 <text>About</text>
               </controlProperties>
             </control>
-            <control controlID="4" controlTypeID="com.balsamiq.mockups::TextArea" x="22" y="130" w="165" h="116" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="13">
+            <control controlID="4" controlTypeID="com.balsamiq.mockups::TextArea" x="22" y="119" w="165" h="200" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="13">
               <controlProperties>
                 <align>left</align>
                 <bold>true</bold>
                 <color>0</color>
-                <text>An%20irreverent%20tribute%20to%20one%20of%20the%20greatest%20and%20most%20fascinating%20actors%20of%20our%20time.%0A%20%0AAnd%20we%20mean%20it%20fo%20realz.</text>
+                <text>An%20irreverent%20tribute%20to%20one%20of%20the%20greatest%20and%20most%20fascinating%20actors%20of%20our%20time.%0A%20%0AAnd%20we%20mean%20it%20fo%20real.%0A%20%0A%20%0A%20%0A%20%0ANam%20Nguyen%2C%20Stephen%20Ridings%2C%20and%20Kyle%20Nicola%20</text>
               </controlProperties>
             </control>
           </groupChildrenDescriptors>

@@ -2206,6 +2206,49 @@
         </control>
         <control controlID="10" controlTypeID="com.balsamiq.mockups::Alert" x="0" y="616" w="-1" h="-1" measuredW="200" measuredH="117" zOrder="3" locked="false" isInGroup="147"/>
         <control controlID="11" controlTypeID="com.balsamiq.mockups::RedX" x="541" y="581" w="167" h="69" measuredW="240" measuredH="104" zOrder="4" locked="false" isInGroup="147"/>
+        <control controlID="12" controlTypeID="__group__" x="798" y="0" w="209" h="399" measuredW="209" measuredH="399" zOrder="5" locked="false" isInGroup="147">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="0" y="0" w="209" h="399" measuredW="209" measuredH="399" zOrder="0" locked="false" isInGroup="12">
+              <controlProperties>
+                <override controlID="0" x="0" y="0" w="209" h="399"/>
+                <override controlID="1" x="11" y="46" w="187" h="298"/>
+                <override controlID="2" x="76" y="369" w="16" h="16"/>
+                <override controlID="3" x="120" y="369" w="16" h="16"/>
+                <override controlID="4" x="168" y="369" w="16" h="16"/>
+                <override controlID="5" x="30" y="369" w="16" h="16"/>
+                <override controlID="6" x="59" y="348" w="91" h="20"/>
+                <override controlID="9" x="11" y="46" w="187" h="17"/>
+                <override controlID="10" x="150" y="50" w="16" h="16"/>
+                <override controlID="11" x="165" y="50" w="16" h="16"/>
+                <override controlID="12" x="181" y="50" w="16" h="16"/>
+                <override controlID="-1"/>
+                <src>./assets/Samsung%20Galaxy%20S.bmml#Samsung%20Galaxy%20S</src>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::RoundButton" x="10" y="46" w="188" h="298" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="12">
+              <controlProperties>
+                <color>0</color>
+                <shape>rectangle</shape>
+                <text/>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::TextInput" x="73" y="59" w="-1" h="-1" measuredW="63" measuredH="38" zOrder="2" locked="false" isInGroup="12">
+              <controlProperties>
+                <color>0</color>
+                <size>24</size>
+                <text>Help</text>
+              </controlProperties>
+            </control>
+            <control controlID="4" controlTypeID="com.balsamiq.mockups::TextArea" x="22" y="156" w="165" h="66" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="12">
+              <controlProperties>
+                <align>left</align>
+                <bold>true</bold>
+                <color>0</color>
+                <text>Go%20watch%20some%20Nicolas%20Cage%20movies%20you%20dummy</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
       </groupChildrenDescriptors>
     </control>
   </controls>

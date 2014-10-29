@@ -10,6 +10,7 @@
 
         <Button
             android:id="@+id/button1"
+            android:background="#FFFFFF"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_marginLeft="0dp"
@@ -20,9 +21,9 @@
 
         <Button
             android:id="@+id/button2"
+            android:background="#FFFFFF"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
-            android:padding="0dp"
             android:text="Help"
             android:textSize="10sp"
             android:textStyle="bold"
@@ -30,6 +31,7 @@
 
         <Button
             android:id="@+id/button3"
+            android:background="#FFFFFF"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:padding="0dp"
@@ -40,6 +42,7 @@
 
         <Button
             android:id="@+id/button4"
+            android:background="#FFFFFF"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:padding="0dp"
@@ -50,6 +53,7 @@
 
         <Button
             android:id="@+id/button5"
+            android:background="#FFFFFF"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:padding="0dp"

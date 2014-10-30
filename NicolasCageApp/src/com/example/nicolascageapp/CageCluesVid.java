@@ -3,6 +3,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
 import android.widget.MediaController;
 import android.widget.VideoView;
  
@@ -23,7 +24,12 @@ public class CageCluesVid extends Activity
 	       myVideoView.requestFocus();
 	       myVideoView.start();
 	       
-	       Intent i = new Intent(getApplicationContext(), CageClues.class);
-           startActivity(i);
+	       new Handler().postDelayed(new Runnable() 
+	       {
+	            @Override
+	            public void run() {
+	                setContentView(R.layout.cage_clues_main); 
+	                }
+	            }, 9250);
 	   }
 }

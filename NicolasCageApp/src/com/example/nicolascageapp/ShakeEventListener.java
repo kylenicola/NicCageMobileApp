@@ -46,6 +46,8 @@ public class ShakeEventListener implements SensorEventListener {
 		float y = event.values[SensorManager.DATA_Y];
 		float z = event.values[SensorManager.DATA_Z];
 		
+		mShakeListener.onShake();
+		
 		float totalMovement = Math.abs(x + y + z - lastX - lastY - lastZ);
 		
 		if (totalMovement > MIN_FORCE)

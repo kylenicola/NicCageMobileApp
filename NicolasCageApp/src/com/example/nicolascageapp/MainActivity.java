@@ -44,6 +44,45 @@ public class MainActivity extends Activity {
 			    return true;
 			}
 		});
+		
+		final ImageButton abcButton = (ImageButton) findViewById(R.id.imageButton2);
+		abcButton.setOnTouchListener(new OnTouchListener() {
+			
+			@Override
+			public boolean onTouch(View v, MotionEvent event) {
+				abcButton.setPressed(true);
+				Handler handler = new Handler();
+			    handler.postDelayed(new Runnable() {
+			    	@Override
+			        public void run() {
+			    		Intent intent = new Intent(getBaseContext(), AbcsWithNic.class);
+			    		startActivity(intent);
+			        }
+			    }, 1000);
+			    return true;
+			}
+		});
+		
+		final ImageButton cluesButton = (ImageButton) findViewById(R.id.imageButton3);
+		cluesButton.setOnTouchListener(new OnTouchListener() {
+			
+			@Override
+			public boolean onTouch(View v, MotionEvent event) {
+				cluesButton.setPressed(true);
+				Handler handler = new Handler();
+			    handler.postDelayed(new Runnable() {
+			    	@Override
+			        public void run() {
+			    		Intent intent = new Intent(getBaseContext(), CageClues.class);
+			    		startActivity(intent);
+			        }
+			    }, 1000);
+			    return true;
+			}
+		});
+		
+		
+		
 	}
 
 	
@@ -65,18 +104,6 @@ public class MainActivity extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
-	
-	/*public void onClickRattleCage(View view) {
-		//rattleTheCageButton.setPressed(true);
-		Handler handler = new Handler();
-	    handler.postDelayed(new Runnable() {
-	    	@Override
-	        public void run() {
-	    		Intent intent = new Intent(getBaseContext(), RattleTheCage.class);
-	    		startActivity(intent);
-	        }
-	    }, 1000);
-	}*/
 }		
 
 

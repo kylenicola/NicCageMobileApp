@@ -24,23 +24,24 @@ public final class R {
     public static final class drawable {
         public static final int abcs_finalscore=0x7f020000;
         public static final int ic_launcher=0x7f020001;
-        public static final int main_menu_abcs_button_image=0x7f020002;
-        public static final int main_menu_abcs_selected=0x7f020003;
-        public static final int main_menu_cageclues_selected=0x7f020004;
-        public static final int main_menu_rattlecage_selected=0x7f020005;
-        public static final int main_menu_rattlethecage_button_image=0x7f020006;
-        public static final int main_menu_whatdidniccagelose_button_image=0x7f020007;
-        public static final int nic_cage_mockup_final=0x7f020008;
-        public static final int shakeme_fifth=0x7f020009;
-        public static final int shakeme_first=0x7f02000a;
-        public static final int shakeme_fourth=0x7f02000b;
-        public static final int shakeme_second=0x7f02000c;
-        public static final int shakeme_third=0x7f02000d;
-        public static final int splash=0x7f02000e;
+        public static final int icon=0x7f020002;
+        public static final int main_menu_abcs_button_image=0x7f020003;
+        public static final int main_menu_abcs_selected=0x7f020004;
+        public static final int main_menu_cageclues_selected=0x7f020005;
+        public static final int main_menu_rattlecage_selected=0x7f020006;
+        public static final int main_menu_rattlethecage_button_image=0x7f020007;
+        public static final int main_menu_whatdidniccagelose_button_image=0x7f020008;
+        public static final int nic_cage_mockup_final=0x7f020009;
+        public static final int shakeme_fifth=0x7f02000a;
+        public static final int shakeme_first=0x7f02000b;
+        public static final int shakeme_fourth=0x7f02000c;
+        public static final int shakeme_second=0x7f02000d;
+        public static final int shakeme_third=0x7f02000e;
+        public static final int splash=0x7f02000f;
     }
     public static final class id {
-        public static final int SplashImage=0x7f08000f;
-        public static final int action_settings=0x7f080010;
+        public static final int SplashImage=0x7f080010;
+        public static final int action_settings=0x7f080011;
         public static final int button1=0x7f080005;
         public static final int button2=0x7f080006;
         public static final int button3=0x7f080007;
@@ -50,10 +51,11 @@ public final class R {
         public static final int imageButton2=0x7f08000b;
         public static final int imageButton3=0x7f08000c;
         public static final int imageView1=0x7f08000d;
-        public static final int progressBar1=0x7f08000e;
+        public static final int progressBar1=0x7f08000f;
         public static final int radioButton1=0x7f080002;
         public static final int radioButton2=0x7f080003;
         public static final int radioButton3=0x7f080004;
+        public static final int rattleImage=0x7f08000e;
         public static final int textView1=0x7f080001;
         public static final int videoView1=0x7f080000;
     }

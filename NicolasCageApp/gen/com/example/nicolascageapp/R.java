@@ -31,13 +31,14 @@ public final class R {
         public static final int main_menu_rattlecage_selected=0x7f020006;
         public static final int main_menu_rattlethecage_button_image=0x7f020007;
         public static final int main_menu_whatdidniccagelose_button_image=0x7f020008;
-        public static final int nic_cage_mockup_final=0x7f020009;
-        public static final int shakeme_fifth=0x7f02000a;
-        public static final int shakeme_first=0x7f02000b;
-        public static final int shakeme_fourth=0x7f02000c;
-        public static final int shakeme_second=0x7f02000d;
-        public static final int shakeme_third=0x7f02000e;
-        public static final int splash=0x7f02000f;
+        public static final int mainmenu_rattlecage=0x7f020009;
+        public static final int nic_cage_mockup_final=0x7f02000a;
+        public static final int shakeme_fifth=0x7f02000b;
+        public static final int shakeme_first=0x7f02000c;
+        public static final int shakeme_fourth=0x7f02000d;
+        public static final int shakeme_second=0x7f02000e;
+        public static final int shakeme_third=0x7f02000f;
+        public static final int splash=0x7f020010;
     }
     public static final class id {
         public static final int SplashImage=0x7f080011;

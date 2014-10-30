@@ -75,7 +75,8 @@
             android:layout_height="145dp"
             android:padding="0dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/mainmenu_rattlecage" />
+            android:src="@drawable/main_menu_rattlethecage" 
+            android:onClick="onClickRattleCage"/>
 
         <ImageButton
             android:id="@+id/imageButton2"

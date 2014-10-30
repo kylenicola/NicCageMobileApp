@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_menu);
 		
-		final ImageButton rattleTheCageButton = (ImageButton) findViewById(R.id.imageButton1);
+		finsl ImageButton rattleTheCageButton = (ImageButton) findViewById(R.id.imageButton1);
 		rattleTheCageButton.setOnTouchListener(new OnTouchListener() {
 			
 			@Override

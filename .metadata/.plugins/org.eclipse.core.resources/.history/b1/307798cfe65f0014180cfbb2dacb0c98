@@ -21,13 +21,12 @@ import java.util.Timer;
 
 public class MainActivity extends Activity {
 
-
+	final ImageButton rattleTheCageButton = (ImageButton) findViewById(R.id.imageButton1);
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_menu);
 		
-		final ImageButton rattleTheCageButton = (ImageButton) findViewById(R.id.imageButton1);
 		rattleTheCageButton.setOnTouchListener(new OnTouchListener() {
 			
 			@Override

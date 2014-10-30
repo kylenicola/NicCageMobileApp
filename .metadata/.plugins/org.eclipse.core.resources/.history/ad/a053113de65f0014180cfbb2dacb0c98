@@ -21,14 +21,13 @@ import java.util.Timer;
 
 public class MainActivity extends Activity {
 
-
+	//final ImageButton rattleTheCageButton = (ImageButton) findViewById(R.id.imageButton1);
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_menu);
 		
-		final ImageButton rattleTheCageButton = (ImageButton) findViewById(R.id.imageButton1);
-		rattleTheCageButton.setOnTouchListener(new OnTouchListener() {
+		/*rattleTheCageButton.setOnTouchListener(new OnTouchListener() {
 			
 			@Override
 			public boolean onTouch(View v, MotionEvent event) {
@@ -37,13 +36,13 @@ public class MainActivity extends Activity {
 			    handler.postDelayed(new Runnable() {
 			    	@Override
 			        public void run() {
-			    		Intent intent = new Intent(getBaseContext(), RattleTheCage.class);
+			    		Intent intent = new Intent(getBaseContext(), RattleTheCageActivity.class);
 			    		startActivity(intent);
 			        }
 			    }, 1000);
 			    return true;
 			}
-		});
+		});*/
 	}
 
 	
@@ -66,7 +65,7 @@ public class MainActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 	
-	/*public void onClickRattleCage(View view) {
+	public void onClickRattleCage(View view) {
 		//rattleTheCageButton.setPressed(true);
 		Handler handler = new Handler();
 	    handler.postDelayed(new Runnable() {
@@ -76,7 +75,7 @@ public class MainActivity extends Activity {
 	    		startActivity(intent);
 	        }
 	    }, 1000);
-	}*/
+	}
 }		
 
 

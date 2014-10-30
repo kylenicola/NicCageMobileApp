@@ -19,33 +19,42 @@
         android:textSize="18sp"
         android:textStyle="bold"
         android:typeface="monospace" />
-
-    <RadioButton
-        android:id="@+id/radioButton1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="10dp"
-        android:text="His hand. His woman. His life."
-        android:textColor="#FFFFFF"
-        android:typeface="monospace" />
     
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="0dp"
-        android:text="NOT THE BEEEEEEEEESSSS"
-        android:textColor="#FFFFFF"
-        android:typeface="monospace" />
-    
-    <RadioButton
-        android:id="@+id/radioButton3"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="0dp"
-        android:text="His dignity."
-        android:textColor="#FFFFFF"
-        android:typeface="monospace" />
-
+	<RadioGroup 
+	    android:id="@+id/gameResponse"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+    	
+	    <RadioButton
+	        android:id="@+id/radioButton1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="0dp"
+	        android:layout_marginTop="10dp"
+	        android:text="His hand. His woman. His life."
+	        android:textColor="#FFFFFF"
+	        android:typeface="monospace"
+	        android:onClick="onRadioButtonClicked" />
+	    
+	    <RadioButton
+	        android:id="@+id/radioButton2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="0dp"
+	        android:text="NOT THE BEEEEEEEEESSSS"
+	        android:textColor="#FFFFFF"
+	        android:typeface="monospace"
+	        android:onClick="onRadioButtonClicked" />
+	    
+	    <RadioButton
+	        android:id="@+id/radioButton3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="0dp"
+	        android:text="His dignity."
+	        android:textColor="#FFFFFF"
+	        android:typeface="monospace"
+	        android:onClick="onRadioButtonClicked" />
+</RadioGroup>
 </LinearLayout>

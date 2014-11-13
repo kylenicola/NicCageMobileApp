@@ -27,6 +27,8 @@ public class CageCluesVid extends Activity
 	       myVideoView = (VideoView)findViewById(R.id.videoView1);
 	       myVideoView.setMediaController(new MediaController(this));
 	       myVideoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.i_lost_my_hand2));
+	       myVideoView.requestFocus();
+	       
 	       myVideoView.start();
 	       
 	       /*new Handler().postDelayed(new Runnable() 

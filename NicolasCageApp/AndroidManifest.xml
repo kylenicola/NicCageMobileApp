@@ -67,6 +67,10 @@
             android:name=".AbcsWithNic"
             android:label="@string/title_activity_abcs_with_nic" >
         </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
     </application>
 
 </manifest>

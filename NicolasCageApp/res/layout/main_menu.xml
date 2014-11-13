@@ -17,7 +17,8 @@
             android:text="Settings"
             android:textSize="10sp"
             android:textStyle="bold"
-            android:typeface="monospace" />
+            android:typeface="monospace"
+            android:onClick="onClickSettings" />
 
         <Button
             android:id="@+id/button2"

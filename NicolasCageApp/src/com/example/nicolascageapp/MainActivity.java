@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.app.ActionBar;
 import android.app.Fragment;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.LayoutInflater;
@@ -14,7 +15,10 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.MediaController;
+import android.widget.TextView;
 import android.os.Build;
 
 import java.util.Timer;
@@ -79,9 +83,12 @@ public class MainActivity extends Activity {
 			    return true;
 			}
 		});
-		
 	}
 	
+	public void onClickSettings(View view) {
+		Intent intent = new Intent(this, Settings.class);
+		startActivity(intent);
+	}
 
 	
 

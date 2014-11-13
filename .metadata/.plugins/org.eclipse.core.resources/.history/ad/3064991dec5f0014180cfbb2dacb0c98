@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="120dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="0dp"
+        android:text="WHAT DID NICOLAS CAGE LOSE?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+    
+	<RadioGroup 
+	    android:id="@+id/gameResponse"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+    	
+	    <RadioButton
+	        android:id="@+id/radioButton1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="0dp"
+	        android:layout_marginTop="10dp"
+	        android:text="His hand. His woman. His life."
+	        android:textColor="#FFFFFF"
+	        android:typeface="monospace"
+	        android:onClick="onRadioButtonClicked" />
+	    
+	    <RadioButton
+	        android:id="@+id/radioButton2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="0dp"
+	        android:text="NOT THE BEEEEEEEEESSSS"
+	        android:textColor="#FFFFFF"
+	        android:typeface="monospace"
+	        android:onClick="onRadioButtonClicked" />
+	    
+	    <RadioButton
+	        android:id="@+id/radioButton3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="0dp"
+	        android:text="His dignity."
+	        android:textColor="#FFFFFF"
+	        android:typeface="monospace"
+	        android:onClick="onRadioButtonClicked" />
+</RadioGroup>
+</LinearLayout>

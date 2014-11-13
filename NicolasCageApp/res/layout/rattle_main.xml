@@ -13,7 +13,8 @@
         android:text="Return To Main Menu"
         android:textSize="10sp"
         android:textStyle="bold"
-        android:typeface="monospace" />
+        android:typeface="monospace"
+        android:onClick="onClickReturnToMainMenu" />
 
     <ImageView
         android:id="@+id/rattleImage"

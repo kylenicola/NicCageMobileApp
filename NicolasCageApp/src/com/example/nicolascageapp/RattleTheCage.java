@@ -2,10 +2,12 @@ package com.example.nicolascageapp;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.hardware.SensorEventListener;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 
 public class RattleTheCage extends Activity {
@@ -41,6 +43,11 @@ public class RattleTheCage extends Activity {
 	}
 	
 	@Override
+	public void onBackPressed() {
+		
+	}
+	
+	@Override
 	protected void onResume() 
 	{
 		super.onResume();
@@ -52,6 +59,11 @@ public class RattleTheCage extends Activity {
 	{
 		mSensorManager.unregisterListener(mSensorListener);
 		super.onPause();
+	}
+	
+	public void onClickReturnToMainMenu(View view) {
+		Intent intent = new Intent(this, MainActivity.class);
+		startActivity(intent);
 	}
 
 }

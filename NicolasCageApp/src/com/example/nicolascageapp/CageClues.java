@@ -39,6 +39,7 @@ public class CageClues extends Activity
                 Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(i);
+                
         	}
 		};
 

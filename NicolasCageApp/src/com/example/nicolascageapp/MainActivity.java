@@ -72,7 +72,7 @@ public class MainActivity extends Activity {
 			    handler.postDelayed(new Runnable() {
 			    	@Override
 			        public void run() {
-			    		Intent intent = new Intent(getBaseContext(), CageClues.class);
+			    		Intent intent = new Intent(getBaseContext(), CageCluesVid.class);
 			    		startActivity(intent);
 			        }
 			    }, 1000);

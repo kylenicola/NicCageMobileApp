@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -23,7 +24,7 @@ import android.os.Build;
 
 import java.util.Timer;
 
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -85,12 +86,22 @@ public class MainActivity extends Activity {
 		});
 	}
 	
-	public void onClickSettings(View view) {
+	public void onClickSettings() {
 		Intent intent = new Intent(this, Settings.class);
 		startActivity(intent);
 	}
-
 	
+	public void onClickHelp() {
+		
+	}
+	
+	public void onClickAbout() {
+		
+	}
+
+	public void onClickQuit() {
+		
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -104,10 +115,22 @@ public class MainActivity extends Activity {
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
+		switch (item.getItemId()) {
+		
+			case R.id.action_about:
+				onClickAbout();
+				return true;
+			case R.id.action_help:
+				onClickHelp();
+				return true;
+			case R.id.action_settings:
+				onClickSettings();
+				return true;
+			case R.id.action_quit:
+				onClickQuit();
+				return true;
 		}
+
 		return super.onOptionsItemSelected(item);
 	}
 }		

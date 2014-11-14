@@ -13,16 +13,16 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="&lt;!--             &lt;intent-filter&gt; --&gt;&#x0A;&lt;!--                 &lt;action android:name=&quot;android.intent.action.MAIN&quot; /&gt; --&gt;" key="selection"/>
+		<item value="Theme.AppCompat.Light.DarkActionBar" key="selection"/>
 		<list key="findhistory">
+			<item value="theme.appcompat.light.darkactionbar"/>
+			<item value="apptheme"/>
 			<item value="&lt;!--             &lt;intent-filter&gt; --&gt;&#x0A;&lt;!--                 &lt;action android:name=&quot;android.intent.action.MAIN&quot; /&gt; --&gt;"/>
 			<item value="&lt;category android:name=&quot;android.intent.category.LAUNCHER&quot; /&gt;&#x0A;            &lt;/intent-filter&gt;&#x0A;"/>
 			<item value=" &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot; /&gt;&#x0A;            &lt;/intent-filter&gt;"/>
 			<item value="                &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot; /&gt;&#x0A;            &lt;/intent-filter&gt;"/>
 			<item value="            &lt;intent-filter&gt;&#x0A;                &lt;action android:name=&quot;android.intent.action.MAIN&quot; /&gt;&#x0A;"/>
 			<item value="Theme.Black.No"/>
-			<item value="Theme.Black.NoTi"/>
-			<item value="            &lt;intent-filter&gt;&#x0A;                &lt;action android:name=&quot;android.intent.action.MAIN&quot; /&gt;"/>
 		</list>
 		<list key="replacehistory">
 		</list>

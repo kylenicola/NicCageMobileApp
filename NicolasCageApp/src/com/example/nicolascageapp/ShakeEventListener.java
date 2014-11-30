@@ -17,7 +17,7 @@ public class ShakeEventListener implements SensorEventListener {
 	
 	private long mFirstDirectionChangeTime = 0;
 	
-	private long mLastDirectionChangeTime;
+	private long mLastDirectionChangeTime = 0;
 	
 	public long mTotalDuration = 0;
 	
@@ -32,7 +32,7 @@ public class ShakeEventListener implements SensorEventListener {
 	private OnShakeListener mShakeListener;
 	
 	public interface OnShakeListener {
-		void onShake();
+		void onShake(long totalDuration, boolean hasStopped);
 	}
 	
 	public void setOnShakeListener(OnShakeListener listener)
@@ -46,7 +46,7 @@ public class ShakeEventListener implements SensorEventListener {
 		float y = event.values[SensorManager.DATA_Y];
 		float z = event.values[SensorManager.DATA_Z];
 		
-		mShakeListener.onShake();
+		//mShakeListener.onShake();
 		
 		float totalMovement = Math.abs(x + y + z - lastX - lastY - lastZ);
 		
@@ -62,8 +62,8 @@ public class ShakeEventListener implements SensorEventListener {
 			
 			long lastChangeWasAgo = now - mLastDirectionChangeTime;
 			
-			if (lastChangeWasAgo < MAX_PAUSE_BETWEEN_DIRECTION_CHANGE)
-			{
+			//if (lastChangeWasAgo < MAX_PAUSE_BETWEEN_DIRECTION_CHANGE)
+			//{
 				mLastDirectionChangeTime = now;
 				mDirectionChangeCount++;
 				
@@ -71,16 +71,25 @@ public class ShakeEventListener implements SensorEventListener {
 				lastY = y;
 				lastZ = z;
 				
-				if (mDirectionChangeCount >= MIN_DIRECTION_CHANGE)
-				{
-					mTotalDuration = now - mFirstDirectionChangeTime;
-				}
-				
-			}
+				mTotalDuration = now - mFirstDirectionChangeTime;
+
+				mShakeListener.onShake(mTotalDuration, false);
+			//}
 		} 
 		else 
 		{
-			resetShakeParameters();
+			long now = System.currentTimeMillis();
+			long wait_time = 2;
+			
+			if((now - mLastDirectionChangeTime) > wait_time * 1000)
+			{
+				mLastDirectionChangeTime = now;
+				mFirstDirectionChangeTime = mFirstDirectionChangeTime + wait_time * 2000 < now ? mFirstDirectionChangeTime + wait_time * 2000 : now;
+				mTotalDuration = now - mFirstDirectionChangeTime;
+				mShakeListener.onShake(mTotalDuration, false);
+			}
+//			resetShakeParameters();
+//			mShakeListener.onShake(mDirectionChangeCount, true);
 		}
 		
 	}

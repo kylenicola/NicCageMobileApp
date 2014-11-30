@@ -85,10 +85,10 @@ public class MainActivity extends Activity {
 		});
 	}
 	
-	public void onClickSettings(View view) {
-		Intent intent = new Intent(this, Settings.class);
-		startActivity(intent);
-	}
+//	public void onClickSettings(View view) {
+//		Intent intent = new Intent(this, Settings.class);
+//		startActivity(intent);
+//	}
 
 	
 

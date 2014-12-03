@@ -24,28 +24,35 @@ public final class R {
     public static final class drawable {
         public static final int abcs_finalscore=0x7f020000;
         public static final int check_mark=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int icon=0x7f020003;
-        public static final int main_menu_abcs_button_image=0x7f020004;
-        public static final int main_menu_abcs_selected=0x7f020005;
-        public static final int main_menu_cageclues_selected=0x7f020006;
-        public static final int main_menu_rattlecage_selected=0x7f020007;
-        public static final int main_menu_rattlethecage_button_image=0x7f020008;
-        public static final int main_menu_whatdidniccagelose_button_image=0x7f020009;
-        public static final int mainmenu_abcs=0x7f02000a;
-        public static final int mainmenu_cageclues=0x7f02000b;
-        public static final int mainmenu_rattlecage=0x7f02000c;
-        public static final int nic_cage_mockup_final=0x7f02000d;
-        public static final int shakeme_fifth=0x7f02000e;
-        public static final int shakeme_first=0x7f02000f;
-        public static final int shakeme_fourth=0x7f020010;
-        public static final int shakeme_second=0x7f020011;
-        public static final int shakeme_third=0x7f020012;
-        public static final int splash=0x7f020013;
+        public static final int ic_action_about=0x7f020002;
+        public static final int ic_action_help=0x7f020003;
+        public static final int ic_action_settings=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int icon=0x7f020006;
+        public static final int main_menu_abcs_button_image=0x7f020007;
+        public static final int main_menu_abcs_selected=0x7f020008;
+        public static final int main_menu_cageclues_selected=0x7f020009;
+        public static final int main_menu_rattlecage_selected=0x7f02000a;
+        public static final int main_menu_rattlethecage_button_image=0x7f02000b;
+        public static final int main_menu_whatdidniccagelose_button_image=0x7f02000c;
+        public static final int mainmenu_abcs=0x7f02000d;
+        public static final int mainmenu_cageclues=0x7f02000e;
+        public static final int mainmenu_rattlecage=0x7f02000f;
+        public static final int nic_cage_mockup_final=0x7f020010;
+        public static final int shakeme_fifth=0x7f020011;
+        public static final int shakeme_first=0x7f020012;
+        public static final int shakeme_fourth=0x7f020013;
+        public static final int shakeme_second=0x7f020014;
+        public static final int shakeme_third=0x7f020015;
+        public static final int splash=0x7f020016;
     }
     public static final class id {
         public static final int RattleTheCageVideo=0x7f090011;
         public static final int SplashImage=0x7f09001b;
+        public static final int action_about=0x7f09001e;
+        public static final int action_exit=0x7f090020;
+        public static final int action_help=0x7f09001d;
+        public static final int action_scores=0x7f09001f;
         public static final int action_settings=0x7f09001c;
         public static final int button1=0x7f090008;
         public static final int button2=0x7f090009;
@@ -102,17 +109,21 @@ public final class R {
         public static final int not_the_bees=0x7f040005;
     }
     public static final class string {
+        public static final int action_about=0x7f060004;
+        public static final int action_exit=0x7f060006;
+        public static final int action_help=0x7f060003;
+        public static final int action_scores=0x7f060005;
         public static final int action_settings=0x7f060002;
         public static final int app_name=0x7f060000;
         public static final int hello_world=0x7f060001;
-        public static final int noSlowDown=0x7f060007;
-        public static final int rattle_the_cage_label=0x7f06000a;
-        public static final int rattle_the_cage_title=0x7f060009;
-        public static final int score_title=0x7f060008;
-        public static final int slow_down_ABCs=0x7f060006;
-        public static final int takeQuiz=0x7f060004;
-        public static final int title_activity_abcs_with_nic=0x7f060003;
-        public static final int title_activity_settings=0x7f060005;
+        public static final int noSlowDown=0x7f06000b;
+        public static final int rattle_the_cage_label=0x7f06000e;
+        public static final int rattle_the_cage_title=0x7f06000d;
+        public static final int score_title=0x7f06000c;
+        public static final int slow_down_ABCs=0x7f06000a;
+        public static final int takeQuiz=0x7f060008;
+        public static final int title_activity_abcs_with_nic=0x7f060007;
+        public static final int title_activity_settings=0x7f060009;
     }
     public static final class style {
         /** 

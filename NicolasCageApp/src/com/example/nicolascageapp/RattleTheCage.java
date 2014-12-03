@@ -44,6 +44,8 @@ public class RattleTheCage extends Activity {
 
 				if(totalDuration > (sixth_time * 1000))
 				{
+					Intent intent = new Intent(RattleTheCage.this, RattleTheCageVideo.class);
+					startActivity(intent);
 					// Move to video activity
 				}
 				else if(totalDuration > (fifth_time * 1000))

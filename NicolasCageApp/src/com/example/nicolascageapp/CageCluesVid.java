@@ -24,6 +24,8 @@ public class CageCluesVid extends Activity
 	      
 	       setContentView(R.layout.cage_clues_video);
 	       
+	       int[] videos = {1,2,3};
+	       
 	       myVideoView = (VideoView)findViewById(R.id.videoView1);
 	       myVideoView.setMediaController(new MediaController(this));
 	       myVideoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.i_lost_my_hand2));

@@ -48,6 +48,7 @@ public class AbcsWithNic extends Activity
 	    				   Toast.makeText(AbcsWithNic.this, endToast, 
 	    						   Toast.LENGTH_SHORT).show();
 	    				   Intent intent = new Intent(getBaseContext(), ABCsScore.class);
+	    				   intent.putExtra("playerScore", playerScore);
 	    				   startActivity(intent);
 	    			   }
 			    	

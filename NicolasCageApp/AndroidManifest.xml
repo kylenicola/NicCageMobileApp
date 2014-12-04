@@ -38,8 +38,12 @@
         <activity
             android:name=".RattleTheCage"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.example.nicolascageapp.MainActivity" >
+	
+            <meta-data 
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nicolascageapp.MainActvity"/>
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
 
@@ -56,6 +60,7 @@
             android:label="@string/app_name"
             android:screenOrientation="landscape">
             
+            
 <!--             <intent-filter> -->
 <!--                 <action android:name="android.intent.action.MAIN" /> -->
 
@@ -66,14 +71,14 @@
         <!-- Cage Clues -->
         <activity
             android:name=".CageCluesVid"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:parentActivityName="com.example.nicolascageapp.MainActivity" >
+	
+            <meta-data 
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nicolascageapp.MainActvity"/>
 
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
 
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".CageClues"

@@ -23,8 +23,7 @@ public class CageCluesVid extends Activity
 	       super.onCreate(savedInstanceState);
 	      
 	       setContentView(R.layout.cage_clues_video);
-	       
-	       int[] videos = {1,2,3};
+	       getActionBar().setDisplayHomeAsUpEnabled(true);
 	       
 	       myVideoView = (VideoView)findViewById(R.id.videoView1);
 	       myVideoView.setMediaController(new MediaController(this));

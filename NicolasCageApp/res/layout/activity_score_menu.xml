@@ -30,7 +30,7 @@
 	    android:textColor="@android:color/white"
 	    android:textStyle="bold" 
 	    android:textSize="15sp"
-	    android:OnClick="onClickRattleTheCageScore" />
+	    android:onClick="onClickRattleTheCageScore" />
 
 	 <Button
 		android:id="@+id/button_scoreABCs"
@@ -45,7 +45,7 @@
 	    android:textColor="@android:color/white"
 	    android:textStyle="bold" 
 	    android:textSize="15sp"
-	    android:OnClick="onClickABCsScore" />
+	    android:onClick="onClickABCsScore" />
 		    
 	
 	 <Button
@@ -61,7 +61,7 @@
 	    android:textColor="@android:color/white"
 	    android:textStyle="bold" 
 	    android:textSize="15sp"
-	    android:OnClick="onClickCageCluesScore" />
+	    android:onClick="onClickCageCluesScore" />
 	    
 </LinearLayout>
 

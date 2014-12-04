@@ -5,23 +5,39 @@
     android:background="@android:color/background_dark"
     android:gravity="fill_vertical"
     android:orientation="vertical" >
+    
+	<LinearLayout
+        android:id="@+id/movieView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_weight="1.17"
+        android:orientation="horizontal" >
 
     <VideoView
         android:id="@+id/videoView1"
         android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:layout_gravity="center" />
+        android:layout_height="match_parent"
+        android:layout_gravity="center"/>
 
-    <Button
-        android:id="@+id/takeCluesQuiz"
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="80dp"
-        android:background="#ff0000"
-        android:onClick="moveToQuiz"
-        android:text="@string/takeQuiz"
-        android:textColor="@android:color/white"
-        android:textStyle="bold" />
+	</LinearLayout>
+	
+	<RelativeLayout
+        android:id="@+id/buttonView"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_weight="1.17" >
+
+		<Button
+		    android:id="@+id/takeCluesQuiz"
+		    android:layout_width="wrap_content"
+		    android:layout_height="60dp"
+		    android:background="#ff0000"
+		    android:layout_centerInParent="true"
+		    android:onClick="moveToQuiz"
+		    android:text="@string/takeQuiz"
+		    android:textColor="@android:color/white"
+		    android:textStyle="bold" />
+
+    </RelativeLayout>
 
 </LinearLayout>

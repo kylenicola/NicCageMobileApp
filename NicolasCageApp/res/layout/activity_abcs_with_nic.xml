@@ -6,6 +6,19 @@
     android:orientation="vertical" >
 
     <LinearLayout
+        android:id="@+id/movieView"
+        android:layout_width="match_parent"
+        android:layout_height="135"
+        android:layout_weight="1.17"
+        android:orientation="horizontal" >
+
+        <VideoView
+            android:id="@+id/videoView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
         android:id="@+id/keyView"
         android:layout_width="match_parent"
         android:layout_height="135"
@@ -286,18 +299,6 @@
         </RelativeLayout>
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/movieView"
-        android:layout_width="match_parent"
-        android:layout_height="135"
-        android:layout_weight="1.17"
-        android:orientation="horizontal" >
-
-        <VideoView
-            android:id="@+id/videoView1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent" />
-
-    </LinearLayout>
+    
 
 </LinearLayout>

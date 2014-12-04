@@ -215,6 +215,11 @@ public class MainActivity extends Activity {
 			showDialog(DIALOG_QUIT_ID);
 			return true;
 		}
+		else if(id == R.id.action_scores)
+		{
+			// Create intent to go to scores menu
+			return true;
+		}
 
 		return super.onOptionsItemSelected(item);
 	}

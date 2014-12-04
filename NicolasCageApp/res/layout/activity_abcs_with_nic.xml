@@ -8,7 +8,7 @@
     <LinearLayout
         android:id="@+id/movieView"
         android:layout_width="match_parent"
-        android:layout_height="135"
+        android:layout_height="135dp"
         android:layout_weight="1.17"
         android:orientation="horizontal" >
 
@@ -21,7 +21,7 @@
     <LinearLayout
         android:id="@+id/keyView"
         android:layout_width="match_parent"
-        android:layout_height="135"
+        android:layout_height="135dp"
         android:orientation="horizontal" >
 
         <RelativeLayout

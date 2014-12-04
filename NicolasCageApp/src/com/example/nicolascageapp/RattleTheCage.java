@@ -21,6 +21,8 @@ public class RattleTheCage extends Activity {
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.rattle_main);
+		
+		getActionBar().setDisplayHomeAsUpEnabled(true);
 		mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
 		mSensorListener = new ShakeEventListener();
 		ImageView myImageView = (ImageView) findViewById(R.id.rattleImage);
@@ -122,9 +124,6 @@ public class RattleTheCage extends Activity {
 		super.onPause();
 	}
 	
-	public void onClickReturnToMainMenu(View view) {
-		Intent intent = new Intent(this, MainActivity.class);
-		startActivity(intent);
-	}
+
 
 }

@@ -3,13 +3,20 @@ package com.example.nicolascageapp;
 
 import android.app.Activity;
 import android.app.ActionBar;
+import android.app.AlertDialog;
+import android.app.AlertDialog.Builder;
+import android.app.Dialog;
 import android.app.Fragment;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
@@ -24,6 +31,11 @@ import android.os.Build;
 import java.util.Timer;
 
 public class MainActivity extends Activity {
+	
+	static final int DIALOG_ABOUT_ID = 0;
+	static final int DIALOG_HELP_ID = 1;
+	static final int DIALOG_QUIT_ID = 2;
+	static final int DIALOG_SETTINGS_ID = 3;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -95,8 +107,85 @@ public class MainActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.main, menu);
+
+		return super.onCreateOptionsMenu(menu);
+	}
+	
+	private Dialog createAboutDialog(Builder builder) {
+		Context context = getApplicationContext();
+		LayoutInflater inflater = (LayoutInflater) context.getSystemService(LAYOUT_INFLATER_SERVICE);
+		View layout = inflater.inflate(R.layout.main_action_about, null); 		
+		builder.setView(layout);
+		builder.setPositiveButton("OK", null);	
+		return builder.create();
+	}
+	
+	private Dialog createHelpDialog(Builder builder) {
+		Context context = getApplicationContext();
+		LayoutInflater inflater = (LayoutInflater) context.getSystemService(LAYOUT_INFLATER_SERVICE);
+		View layout = inflater.inflate(R.layout.main_action_help, null); 		
+		builder.setView(layout);
+		builder.setPositiveButton("OK", null);	
+		return builder.create();
+	}
+	
+	private Dialog createQuitDialog(Builder builder) {
+		builder.setMessage(R.string.quit_question).setCancelable(false)
+		.setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
+			public void onClick(DialogInterface dialog, int id) {
+				MainActivity.this.finish();
+			}
+		})
+		.setNegativeButton(R.string.no, null);   
+		return builder.create();
+	}
+	
+	private Dialog createSettingsDialog(Builder builder) {
+		
+		
+		builder.setPositiveButton("Ok", null).setMultiChoiceItems(R.array.Settings, null, new DialogInterface.OnMultiChoiceClickListener() {
+			
+			@Override
+			public void onClick(DialogInterface dialog, int which, boolean isChecked) {
+				// TODO Auto-generated method stub
+				AlertDialog.Builder nopeBuilder = new AlertDialog.Builder(MainActivity.this);
+				Dialog nopeDialog = null;
+				if (isChecked)
+				{
+					nopeBuilder.setMessage("NICOLAS CAGE SLOWS FOR NO MAN").setPositiveButton("my bad", null);
+					nopeDialog = nopeBuilder.create();
+					nopeDialog.show();
+				}
+			}
+		});
+		return builder.create();
+	}
+	
+	@Override
+	protected Dialog onCreateDialog(int id) {
+		Dialog dialog = null;
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		
+		switch(id)
+		{
+		case DIALOG_ABOUT_ID:
+			dialog = createAboutDialog(builder);
+			break;
+		case DIALOG_HELP_ID:
+			dialog = createHelpDialog(builder);
+			break;
+		case DIALOG_QUIT_ID:
+			dialog = createQuitDialog(builder);
+			break;
+		case DIALOG_SETTINGS_ID:
+			
+			dialog = createSettingsDialog(builder);
+			break;
+		
+		}
+		return dialog;
 	}
 
 	@Override
@@ -106,8 +195,32 @@ public class MainActivity extends Activity {
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
+			Log.d("butthole", "settings clicked");
+			showDialog(DIALOG_SETTINGS_ID);
 			return true;
 		}
+		else if(id == R.id.action_about)
+		{
+			showDialog(DIALOG_ABOUT_ID);
+			return true;
+		}
+		else if(id == R.id.action_help)
+		{
+			Log.d("butthole", "help clicked");
+			showDialog(DIALOG_HELP_ID);
+			return true;
+		}
+		else if(id == R.id.action_exit)
+		{
+			showDialog(DIALOG_QUIT_ID);
+			return true;
+		}
+		else if(id == R.id.action_scores)
+		{
+			// Create intent to go to scores menu
+			return true;
+		}
+
 		return super.onOptionsItemSelected(item);
 	}
 }		

@@ -2,7 +2,10 @@ package com.example.nicolascageapp;
 import java.io.File;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
@@ -32,6 +35,9 @@ public class AbcsWithNic extends Activity
 	       myVideoView.setMediaController(new MediaController(this));
 	       myVideoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.i_lost_my_hand2));
 	       myVideoView.start();
+	       
+		   final SharedPreferences prefs = this.getSharedPreferences("myPrefsKey", Context.MODE_PRIVATE);
+		   
 	       myVideoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() 
 	       {
 	    	   @Override
@@ -47,6 +53,11 @@ public class AbcsWithNic extends Activity
 	    				   String endToast = "Your score was: " + getPlayerScore();
 	    				   Toast.makeText(AbcsWithNic.this, endToast, 
 	    						   Toast.LENGTH_SHORT).show();
+	    				   
+	    				   Editor editor = prefs.edit();
+	    				   editor.putInt("abc_most_recent_score", getPlayerScore());
+	    				   editor.commit();
+	    				   
 	    				   Intent intent = new Intent(getBaseContext(), ABCsScore.class);
 	    				   intent.putExtra("playerScore", playerScore);
 	    				   startActivity(intent);

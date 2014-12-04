@@ -16,5 +16,14 @@
     <string name="score_title">Scores</string>
     <string name="rattle_the_cage_title">Rattle The Cage</string>
     <string name="rattle_the_cage_label">Total Score: </string>
+    <string name="about_dialog_title">About</string>
+    <string name="about_dialog_description">These games are mere vehicles in order to 
+        explore the glory and insanity that is Nicolas Cage.  Enjoy.</string>
+    <string name="about_dialog_names">Nam Nguyen, Stephen Ridings, and Kyle Nicola</string>
+    <string name="help_dialog_title">Help</string>
+    <string name="help_dialog_description">Go watch some Nicolas Cage movies you dummy</string>
+    <string name="quit_question">Are you sure you want to quit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 
 </resources>

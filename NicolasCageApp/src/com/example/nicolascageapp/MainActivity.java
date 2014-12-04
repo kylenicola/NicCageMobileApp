@@ -3,7 +3,12 @@ package com.example.nicolascageapp;
 
 import android.app.Activity;
 import android.app.ActionBar;
+import android.app.AlertDialog;
+import android.app.AlertDialog.Builder;
+import android.app.Dialog;
 import android.app.Fragment;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -25,6 +30,10 @@ import android.os.Build;
 import java.util.Timer;
 
 public class MainActivity extends Activity {
+	
+	static final int DIALOG_ABOUT_ID = 0;
+	static final int DIALOG_HELP_ID = 1;
+	static final int DIALOG_QUIT_ID = 2;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -101,6 +110,56 @@ public class MainActivity extends Activity {
 
 		return super.onCreateOptionsMenu(menu);
 	}
+	
+	private Dialog createAboutDialog(Builder builder) {
+		Context context = getApplicationContext();
+		LayoutInflater inflater = (LayoutInflater) context.getSystemService(LAYOUT_INFLATER_SERVICE);
+		View layout = inflater.inflate(R.layout.main_action_about, null); 		
+		builder.setView(layout);
+		builder.setPositiveButton("OK", null);	
+		return builder.create();
+	}
+	
+	private Dialog createHelpDialog(Builder builder) {
+		Context context = getApplicationContext();
+		LayoutInflater inflater = (LayoutInflater) context.getSystemService(LAYOUT_INFLATER_SERVICE);
+		View layout = inflater.inflate(R.layout.main_action_help, null); 		
+		builder.setView(layout);
+		builder.setPositiveButton("OK", null);	
+		return builder.create();
+	}
+	
+	private Dialog createQuitDialog(Builder builder) {
+		builder.setMessage(R.string.quit_question).setCancelable(false)
+		.setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
+			public void onClick(DialogInterface dialog, int id) {
+				MainActivity.this.finish();
+			}
+		})
+		.setNegativeButton(R.string.no, null);   
+		return builder.create();
+	}
+	
+	@Override
+	protected Dialog onCreateDialog(int id) {
+		Dialog dialog = null;
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		
+		switch(id)
+		{
+		case DIALOG_ABOUT_ID:
+			dialog = createAboutDialog(builder);
+			break;
+		case DIALOG_HELP_ID:
+			dialog = createHelpDialog(builder);
+			break;
+		case DIALOG_QUIT_ID:
+			dialog = createQuitDialog(builder);
+			break;
+		
+		}
+		return dialog;
+	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
@@ -109,6 +168,21 @@ public class MainActivity extends Activity {
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
+			return true;
+		}
+		else if(id == R.id.action_about)
+		{
+			showDialog(DIALOG_ABOUT_ID);
+			return true;
+		}
+		else if(id == R.id.action_help)
+		{
+			showDialog(DIALOG_HELP_ID);
+			return true;
+		}
+		else if(id == R.id.action_exit)
+		{
+			showDialog(DIALOG_QUIT_ID);
 			return true;
 		}
 		return super.onOptionsItemSelected(item);

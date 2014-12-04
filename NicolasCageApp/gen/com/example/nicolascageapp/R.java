@@ -47,38 +47,36 @@ public final class R {
         public static final int splash=0x7f020016;
     }
     public static final class id {
-        public static final int RattleTheCageVideo=0x7f090011;
-        public static final int SplashImage=0x7f09001b;
-        public static final int action_about=0x7f09001e;
-        public static final int action_exit=0x7f090020;
-        public static final int action_help=0x7f09001d;
-        public static final int action_scores=0x7f09001f;
-        public static final int action_settings=0x7f09001c;
-        public static final int button1=0x7f090008;
-        public static final int button2=0x7f090009;
-        public static final int button3=0x7f09000a;
-        public static final int button4=0x7f09000b;
-        public static final int button5=0x7f09000c;
+        public static final int RattleTheCageVideo=0x7f09000f;
+        public static final int SplashImage=0x7f090019;
+        public static final int action_about=0x7f09001c;
+        public static final int action_exit=0x7f09001e;
+        public static final int action_help=0x7f09001b;
+        public static final int action_scores=0x7f09001d;
+        public static final int action_settings=0x7f09001a;
+        public static final int button1=0x7f09000d;
         public static final int container=0x7f090001;
         public static final int gameResponse=0x7f090003;
-        public static final int imageButton1=0x7f09000d;
-        public static final int imageButton2=0x7f09000e;
-        public static final int imageButton3=0x7f09000f;
-        public static final int imageView1=0x7f090010;
-        public static final int progressBar1=0x7f090013;
+        public static final int imageButton1=0x7f09000a;
+        public static final int imageButton2=0x7f09000b;
+        public static final int imageButton3=0x7f09000c;
+        public static final int imageView1=0x7f09000e;
+        public static final int progressBar1=0x7f090011;
         public static final int radioButton1=0x7f090004;
         public static final int radioButton2=0x7f090005;
         public static final int radioButton3=0x7f090006;
-        public static final int rattleImage=0x7f090012;
-        public static final int rattle_the_cage_label=0x7f090016;
-        public static final int rattle_the_cage_score=0x7f090017;
-        public static final int rattle_the_cage_score_extra=0x7f090018;
-        public static final int rattle_the_cage_title=0x7f090015;
-        public static final int rejectSlowDownABCs=0x7f09001a;
-        public static final int score=0x7f090014;
-        public static final int slowDownABC=0x7f090019;
+        public static final int rattleImage=0x7f090010;
+        public static final int rattle_the_cage_label=0x7f090014;
+        public static final int rattle_the_cage_score=0x7f090015;
+        public static final int rattle_the_cage_score_extra=0x7f090016;
+        public static final int rattle_the_cage_title=0x7f090013;
+        public static final int rejectSlowDownABCs=0x7f090018;
+        public static final int score=0x7f090012;
+        public static final int slowDownABC=0x7f090017;
         public static final int takeCluesQuiz=0x7f090007;
         public static final int textView1=0x7f090002;
+        public static final int textView2=0x7f090009;
+        public static final int textView3=0x7f090008;
         public static final int videoView1=0x7f090000;
     }
     public static final class layout {
@@ -87,13 +85,15 @@ public final class R {
         public static final int cage_clues_main=0x7f030002;
         public static final int cage_clues_video=0x7f030003;
         public static final int fragment_abcs_with_nic=0x7f030004;
-        public static final int main_menu=0x7f030005;
-        public static final int rattle_end=0x7f030006;
-        public static final int rattle_end_video=0x7f030007;
-        public static final int rattle_main=0x7f030008;
-        public static final int score_page=0x7f030009;
-        public static final int settings=0x7f03000a;
-        public static final int splash=0x7f03000b;
+        public static final int main_action_about=0x7f030005;
+        public static final int main_action_help=0x7f030006;
+        public static final int main_menu=0x7f030007;
+        public static final int rattle_end=0x7f030008;
+        public static final int rattle_end_video=0x7f030009;
+        public static final int rattle_main=0x7f03000a;
+        public static final int score_page=0x7f03000b;
+        public static final int settings=0x7f03000c;
+        public static final int splash=0x7f03000d;
     }
     public static final class menu {
         public static final int abcs_with_nic=0x7f080000;
@@ -109,6 +109,9 @@ public final class R {
         public static final int not_the_bees=0x7f040005;
     }
     public static final class string {
+        public static final int about_dialog_description=0x7f060010;
+        public static final int about_dialog_names=0x7f060011;
+        public static final int about_dialog_title=0x7f06000f;
         public static final int action_about=0x7f060004;
         public static final int action_exit=0x7f060006;
         public static final int action_help=0x7f060003;
@@ -116,7 +119,11 @@ public final class R {
         public static final int action_settings=0x7f060002;
         public static final int app_name=0x7f060000;
         public static final int hello_world=0x7f060001;
+        public static final int help_dialog_description=0x7f060013;
+        public static final int help_dialog_title=0x7f060012;
+        public static final int no=0x7f060016;
         public static final int noSlowDown=0x7f06000b;
+        public static final int quit_question=0x7f060014;
         public static final int rattle_the_cage_label=0x7f06000e;
         public static final int rattle_the_cage_title=0x7f06000d;
         public static final int score_title=0x7f06000c;
@@ -124,6 +131,7 @@ public final class R {
         public static final int takeQuiz=0x7f060008;
         public static final int title_activity_abcs_with_nic=0x7f060007;
         public static final int title_activity_settings=0x7f060009;
+        public static final int yes=0x7f060015;
     }
     public static final class style {
         /** 

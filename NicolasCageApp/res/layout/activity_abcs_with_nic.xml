@@ -10,10 +10,11 @@
         android:layout_height="20dp"
         android:orientation="horizontal" >
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/abcsBacktoMain"
         android:layout_width="fill_parent"
         android:layout_height="20dp"
         android:background="#FFFFFF"
+        android:onClick="backToMain"
         android:text="Return To Main Menu"
         android:textSize="10sp"
         android:textStyle="bold"

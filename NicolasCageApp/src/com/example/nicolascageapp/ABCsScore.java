@@ -22,14 +22,14 @@ public class ABCsScore extends Activity {
 		
 		TextView mostRecentScore = (TextView)findViewById(R.id.mostRecentScoreABC);
 		int most_recent_score = prefs.getInt("abc_most_recent_score", 0);
-		mostRecentScore.setText(most_recent_score);
+		mostRecentScore.setText(Integer.toString(most_recent_score));
 		
 		if(prefs.getInt("abc_hi_score", 0) < most_recent_score) {
 			editor.putInt("abc_hi_score", most_recent_score);
 			editor.commit();
 			int hi_score = prefs.getInt("abc_hi_score",0);
 			TextView hiScore = (TextView)findViewById(R.id.hiScoreABC);
-			hiScore.setText(hi_score);
+			hiScore.setText(Integer.toString(hi_score));
 		}
 	}
 

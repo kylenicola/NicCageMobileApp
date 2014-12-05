@@ -1,9 +1,11 @@
 package com.example.nicolascageapp;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.animation.AnimationUtils;
 import android.widget.ViewFlipper;
 
@@ -21,5 +23,9 @@ public class CageCluesScore extends Activity {
 		mFlipper.setOutAnimation(AnimationUtils.loadAnimation(getApplicationContext(), android.R.anim.fade_out));
 	}
 
+	public void onClickToMainMenu(View view) {
+		Intent intent = new Intent(this, MainActivity.class);
+		startActivity(intent);
+	}	
 
 }

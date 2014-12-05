@@ -20,7 +20,7 @@ public class ABCsScore extends Activity {
 		SharedPreferences prefs = this.getSharedPreferences("myPrefsKey", Context.MODE_PRIVATE);
 		Editor editor = prefs.edit();
 		
-		TextView mostRecentScore = (TextView)findViewById(R.id.mostRecentScore);
+		TextView mostRecentScore = (TextView)findViewById(R.id.mostRecentScoreABC);
 		int most_recent_score = prefs.getInt("abc_most_recent_score", 0);
 		mostRecentScore.setText(most_recent_score);
 		
@@ -28,7 +28,7 @@ public class ABCsScore extends Activity {
 			editor.putInt("abc_hi_score", most_recent_score);
 			editor.commit();
 			int hi_score = prefs.getInt("abc_hi_score",0);
-			TextView hiScore = (TextView)findViewById(R.id.hiScore);
+			TextView hiScore = (TextView)findViewById(R.id.hiScoreABC);
 			hiScore.setText(hi_score);
 		}
 	}

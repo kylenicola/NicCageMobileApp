@@ -1,16 +1,63 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.nicolascageapp.RattleTheCageScore" >
-
-    <TextView
-        android:layout_width="wrap_content"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" 
+	android:background="@android:color/background_dark"
+	android:orientation="vertical" >
+	
+    <LinearLayout 
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
-</RelativeLayout>
+        android:orientation="horizontal" >
+        
+		 <TextView 
+		     android:id="@+id/hiScoreLabel"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+			 android:layout_marginLeft="25dp"
+		     android:layout_marginTop="125dp"
+		     android:text="@string/hi_score"
+		     android:textSize="25sp"
+		     android:textStyle="bold" 
+		     android:textColor="#fe0001" />
+		 
+		 <TextView 
+		     android:id="@+id/hiScoreRattle"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_marginLeft="30dp"
+		     android:layout_marginTop="125dp"
+			 android:textSize="25sp"
+			 android:textStyle="bold"
+			 android:textColor="@android:color/white" /> 
+			 
+	 </LinearLayout>
+	 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	 
+		<TextView 
+		     android:id="@id/mostRecentScoreLabel"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+			 android:layout_marginLeft="25dp"
+		     android:layout_marginTop="75dp"
+		     android:text="@string/most_recent_score"
+		     android:textSize="25sp"
+		     android:textStyle="bold" 
+		     android:textColor="#fe0001" />
+		 
+		 <TextView 
+		     android:id="@+id/mostRecentScoreRattle"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_marginLeft="30dp"
+		     android:layout_marginTop="75dp"
+			 android:textSize="25sp"
+			 android:textStyle="bold"
+			 android:textColor="@android:color/white" /> 	 
+	
+	</LinearLayout>
+	 
+</LinearLayout>

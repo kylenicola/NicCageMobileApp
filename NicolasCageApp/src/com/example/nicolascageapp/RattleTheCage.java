@@ -37,7 +37,7 @@ public class RattleTheCage extends Activity {
 		mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
 		mSensorListener = new ShakeEventListener();
 		ImageView myImageView = (ImageView) findViewById(R.id.rattleImage);
-		myImageView.setImageResource(R.drawable.shakeme_sixth);
+		myImageView.setImageResource(R.drawable.shakeme_first);
 		myImageView.setTag(R.drawable.shakeme_first);
 		
 		mSensorListener.setOnShakeListener(new ShakeEventListener.OnShakeListener() {
@@ -147,7 +147,7 @@ public class RattleTheCage extends Activity {
 					if(!myImageView.getTag().equals(R.drawable.shakeme_first))
 					{
 						myTextView.setText(R.string.rattle_text_pos_1);
-						myImageView.setImageResource(R.drawable.shakeme_sixth);
+						myImageView.setImageResource(R.drawable.shakeme_first);
 						myImageView.setTag(R.drawable.shakeme_first);
 					}
 				}

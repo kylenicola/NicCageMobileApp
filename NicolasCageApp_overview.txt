@@ -40,6 +40,7 @@ For the game Cage Clues, What Did He Lose?
 -followed by a multiple choice question quizzing you on the scene
 
 For the Scores page
+-lists descriptions of what skills were tested for each minigame that are also buttons leading to scores (highest and most recent) for each of those mini games
 
 3) List of features / use cases from our application prototype (assignment 3) that we did not complete
 

@@ -39,21 +39,29 @@ For the game A, B, CÕs with N,I,C
 - implemented a keyboard 
 
 For the game Cage Clues, What Did He Lose?
--plays a scene from one of his movies expressing what he lost
+-Plays a scene from one of Nic Cage’s movies (“Moonstruck”)
 -followed by a multiple choice question quizzing you on the scene
 
 For the Scores page
--lists descriptions of what skills were tested for each minigame that are also buttons leading to scores (highest and most recent) for each of those mini games
+-lists descriptions of what skills were tested for each minigame that are also buttons leading to scores (highest and most recent) for each of those minigames
 
 3) List of features / use cases from our application prototype (assignment 3) that we did not complete
 
+-Volume on/off in Settings page
+
 4) A list of features / use cases we added that were not part of the application prototype
+
+-Jokey options meant to prank/entertain the user
 
 5) A list of classes and major chunks of code we obtained from other sources
 
 -For the ShakeEventListener, significant amount of code was taking from here: http://stackoverflow.com/a/5117254. 
 
 The general idea of how the listener works was taken from here, but gutted and used for my purposes.
+
+-Saving scores: http://stackoverflow.com/questions/8407286/need-to-save-a-high-score-for-an-android-game
+
+-Creating a button with stylized borders: http://tips.androidhive.info/2013/09/android-layout-rounded-corner-border/
   
 6) A list of the classes and major chunks of code we completed ourselves.
 

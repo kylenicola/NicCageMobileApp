@@ -35,5 +35,6 @@
     <string name="no">No</string>
     <string name="hi_score">RECORD:</string>
     <string name="most_recent_score">MOST RECENT:</string>
+    <string name="perf_priceless">PRICELESS</string>
 
 </resources>

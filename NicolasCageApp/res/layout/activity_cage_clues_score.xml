@@ -29,5 +29,15 @@
 		    android:text="" />	
 	
 	</ViewFlipper>
+	
+    <ImageButton
+        android:id="@+id/scorepage_back_to_mainmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/black"
+        android:src="@drawable/ic_action_back" 
+        android:onClick="onClickToMainMenu" />
 
 </LinearLayout>

@@ -2,11 +2,13 @@ package com.example.nicolascageapp;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 
 public class RattleTheCageScore extends Activity {
@@ -33,5 +35,10 @@ public class RattleTheCageScore extends Activity {
 		}
 	}
 
+	
+	public void onClickToMainMenu(View view) {
+		Intent intent = new Intent(this, MainActivity.class);
+		startActivity(intent);
+	}	
 
 }

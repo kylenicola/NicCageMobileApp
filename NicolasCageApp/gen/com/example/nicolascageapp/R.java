@@ -164,6 +164,10 @@ public final class R {
         public static final int im_a_vampire=0x7f040004;
         public static final int love_me=0x7f040005;
         public static final int not_the_bees=0x7f040006;
+        public static final int yell_four=0x7f040007;
+        public static final int yell_one=0x7f040008;
+        public static final int yell_three=0x7f040009;
+        public static final int yell_two=0x7f04000a;
     }
     public static final class string {
         public static final int abcs_score_description=0x7f070013;

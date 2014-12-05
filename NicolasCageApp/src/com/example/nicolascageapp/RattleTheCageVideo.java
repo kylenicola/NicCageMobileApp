@@ -50,10 +50,12 @@ public class RattleTheCageVideo extends Activity
 
 				// TODO Auto-generated method stub
 				// need code to switch activities
+
 				Editor editor = prefs.edit();
 				editor.putInt("rattle_most_recent_score", RATTLE_SCORE);
 				editor.commit();
 				
+
 				Intent intent = new Intent(RattleTheCageVideo.this, RattleTheCageScore.class);
 				intent.putExtra("score", RATTLE_SCORE);
 				startActivity(intent);

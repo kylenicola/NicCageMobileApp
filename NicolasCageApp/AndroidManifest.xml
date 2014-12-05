@@ -88,7 +88,13 @@
         </activity>
         <activity
             android:name=".AbcsWithNic"
-            android:label="@string/title_activity_abcs_with_nic" >
+            android:label="@string/title_activity_abcs_with_nic"
+            android:parentActivityName="com.example.nicolascageapp.MainActivity" >
+	
+            <meta-data 
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nicolascageapp.MainActvity"/> 
+            
         </activity>
         <activity
             android:name=".Settings"

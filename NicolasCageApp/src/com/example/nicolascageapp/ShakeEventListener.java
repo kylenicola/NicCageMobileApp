@@ -86,7 +86,7 @@ public class ShakeEventListener implements SensorEventListener {
 				mLastDirectionChangeTime = now;
 				mFirstDirectionChangeTime = mFirstDirectionChangeTime + wait_time * 2000 < now ? mFirstDirectionChangeTime + wait_time * 2000 : now;
 				mTotalDuration = now - mFirstDirectionChangeTime;
-				mShakeListener.onShake(mTotalDuration, false);
+				mShakeListener.onShake(mTotalDuration, true);
 			}
 //			resetShakeParameters();
 //			mShakeListener.onShake(mDirectionChangeCount, true);

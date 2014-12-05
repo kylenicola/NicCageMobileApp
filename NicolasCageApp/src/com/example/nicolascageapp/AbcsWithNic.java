@@ -33,7 +33,7 @@ public class AbcsWithNic extends Activity
 	       
 	       myVideoView = (VideoView)findViewById(R.id.abcs_videoView);
 	       myVideoView.setMediaController(new MediaController(this));
-	       myVideoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.i_lost_my_hand2));
+	       myVideoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.abcs_video));
 	       myVideoView.start();
 	       
 		   final SharedPreferences prefs = this.getSharedPreferences("myPrefsKey", Context.MODE_PRIVATE);

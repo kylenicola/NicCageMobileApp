@@ -35,5 +35,13 @@
     <string name="no">No</string>
     <string name="hi_score">RECORD:</string>
     <string name="most_recent_score">MOST RECENT:</string>
+    <string name="rattle_text_pos_1">Shake Him</string>
+    <string name="rattle_text_pos_2">Tell him he\'s a National Tragedy</string>
+    <string name="rattle_text_pos_3">RAISE HIS ANGERZONA</string>
+    <string name="rattle_text_pos_4">SHAKE HIS FACE/OFF</string>
+    <string name="rattle_text_pos_5">AHHHHHHHHHHHHH</string>
+    <string name="rattle_text_neg_2">Why are you weak?</string>
+    <string name="rattle_text_neg_3"></string>
+    <string name="rattle_text_neg_4">You such a disappointment</string>
 
 </resources>

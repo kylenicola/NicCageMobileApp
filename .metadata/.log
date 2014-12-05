@@ -8565,6 +8565,7 @@ Binding(CTRL+SHIFT+ARROW_LEFT,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.wst.sse.ui.structuredTextEditorScope,,cocoa,system)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:09:19.940
 !MESSAGE Exception in checkAndLoadTargetData.
 !STACK 0
@@ -9269,6 +9270,67 @@ java.lang.NullPointerException
 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
 	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3615)
+=======
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-12-04 19:45:45.165
+!MESSAGE Failed to render set of icons for AnalogClock, AutoCompleteTextView, Button, SmallButton, CheckBox, CheckedTextView, DigitalClock, PlainText, Password, PasswordNumeric, PersonName, Phone, PostalAddress, MultilineText, Date, Time, Email, Number, NumberSigned, NumberDecimal, LargeText, MediumText, SmallText, MultiAutoCompleteTextView, ProgressBarNormal, ProgressBarHorizontal, ProgressBarLarge, ProgressBarSmall, QuickContactBadge, RadioButton, RatingBar, SeekBar, ListView, ExpandableListView, Spinner, TextView, ToggleButton, ZoomButton, ZoomControls, CalendarView, RadioGroup
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:45:45.168
+!MESSAGE java.lang.System.arraycopy([CI[CII)V
+!STACK 0
+java.lang.NoSuchMethodError: java.lang.System.arraycopy([CI[CII)V
+	at android.text.SpannableStringBuilder.getChars(SpannableStringBuilder.java:916)
+	at android.text.TextUtils.getChars(TextUtils.java:79)
+	at android.text.SpannableStringBuilder.<init>(SpannableStringBuilder.java:61)
+	at android.text.SpannableStringBuilder.<init>(SpannableStringBuilder.java:44)
+	at android.text.Editable$Factory.newEditable(Editable.java:139)
+	at android.widget.TextView.setText(TextView.java:3729)
+	at android.widget.TextView.setText(TextView.java:3671)
+	at android.widget.EditText.setText(EditText.java:80)
+	at android.widget.TextView.setText(TextView.java:3646)
+	at android.widget.TextView.setTransformationMethod(TextView.java:1724)
+	at android.widget.TextView.<init>(TextView.java:1250)
+	at android.widget.EditText.<init>(EditText.java:60)
+	at android.widget.EditText.<init>(EditText.java:56)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:594)
+	at android.view.BridgeInflater.onCreateView(BridgeInflater.java:82)
+	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:669)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:694)
+	at android.view.BridgeInflater.createViewFromTag(BridgeInflater.java:127)
+	at android.view.LayoutInflater.rInflate_Original(LayoutInflater.java:755)
+	at android.view.LayoutInflater_Delegate.rInflate(LayoutInflater_Delegate.java:64)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:727)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:492)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:373)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.inflate(RenderSessionImpl.java:393)
+	at com.android.layoutlib.bridge.Bridge.createSession(Bridge.java:337)
+	at com.android.ide.common.rendering.LayoutLibrary.createSession(LayoutLibrary.java:332)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.RenderService.createRenderSession(RenderService.java:517)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.render(PreviewIconFactory.java:273)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.initColors(PreviewIconFactory.java:595)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.getBackgroundColor(PreviewIconFactory.java:570)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.reloadPalette(PaletteControl.java:437)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.reloadPalette(GraphicalEditorPart.java:1327)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.changed(GraphicalEditorPart.java:771)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.onTargetChange(GraphicalEditorPart.java:1196)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.onDescriptorsChanged(LayoutEditorDelegate.java:916)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegateInitUiRootNode(LayoutEditorDelegate.java:835)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart$TargetListener.updateEditor(GraphicalEditorPart.java:953)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart$TargetListener.onTargetLoaded(GraphicalEditorPart.java:917)
+	at com.android.ide.eclipse.adt.AdtPlugin$11.run(AdtPlugin.java:1749)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3946)
+	at org.eclipse.swt.widgets.Display.observerProc(Display.java:3536)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4059)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3614)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
@@ -9291,6 +9353,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:22:39.482
 !MESSAGE Failed to get ProjectResource for the framework
 
@@ -9304,11 +9367,22 @@ java.lang.NullPointerException
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+=======
+!ENTRY org.eclipse.ui 4 0 2014-12-04 19:46:28.656
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+>>>>>>> Stashed changes
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4136)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1458)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1481)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+<<<<<<< Updated upstream
 	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1244)
 	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:167)
 	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:741)
@@ -9320,6 +9394,11 @@ java.lang.NullPointerException
 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
 	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3615)
+=======
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1271)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
@@ -9342,6 +9421,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:22:39.484
 !MESSAGE Failed to get ProjectResource for the framework
 
@@ -9356,11 +9436,22 @@ java.lang.NullPointerException
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+=======
+!ENTRY org.eclipse.ui 4 0 2014-12-04 19:46:29.559
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+>>>>>>> Stashed changes
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4136)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1458)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1481)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+<<<<<<< Updated upstream
 	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1244)
 	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:167)
 	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:741)
@@ -9372,6 +9463,11 @@ java.lang.NullPointerException
 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
 	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3615)
+=======
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1271)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
@@ -9394,6 +9490,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:22:39.485
 !MESSAGE Failed to get ProjectResource for the framework
 
@@ -9407,11 +9504,22 @@ java.lang.NullPointerException
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+=======
+!ENTRY org.eclipse.ui 4 0 2014-12-04 19:46:29.808
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+>>>>>>> Stashed changes
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4136)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1458)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1481)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+<<<<<<< Updated upstream
 	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1244)
 	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:167)
 	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:741)
@@ -9423,6 +9531,11 @@ java.lang.NullPointerException
 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
 	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3615)
+=======
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1271)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
@@ -9445,6 +9558,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:22:39.488
 !MESSAGE Failed to get ProjectResource for the framework
 
@@ -9458,11 +9572,22 @@ java.lang.NullPointerException
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+=======
+!ENTRY org.eclipse.ui 4 0 2014-12-04 19:46:30.176
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+>>>>>>> Stashed changes
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4136)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1458)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1481)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+<<<<<<< Updated upstream
 	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1244)
 	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:167)
 	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:741)
@@ -9474,6 +9599,11 @@ java.lang.NullPointerException
 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
 	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3615)
+=======
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1271)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
@@ -9496,6 +9626,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:22:39.490
 !MESSAGE Failed to get ProjectResource for the framework
 
@@ -9510,11 +9641,22 @@ java.lang.NullPointerException
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+=======
+!ENTRY org.eclipse.ui 4 0 2014-12-04 19:46:30.678
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+>>>>>>> Stashed changes
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4136)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1458)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1481)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+<<<<<<< Updated upstream
 	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1244)
 	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:167)
 	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:741)
@@ -9526,6 +9668,11 @@ java.lang.NullPointerException
 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
 	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3615)
+=======
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1271)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
@@ -9548,6 +9695,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:22:39.491
 !MESSAGE Failed to get ProjectResource for the framework
 
@@ -9561,11 +9709,22 @@ java.lang.NullPointerException
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+=======
+!ENTRY org.eclipse.ui 4 0 2014-12-04 19:46:30.861
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+>>>>>>> Stashed changes
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4136)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1458)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1481)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+<<<<<<< Updated upstream
 	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1244)
 	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:167)
 	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:741)
@@ -9577,6 +9736,11 @@ java.lang.NullPointerException
 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
 	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3615)
+=======
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1271)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
@@ -9599,6 +9763,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:22:39.493
 !MESSAGE Failed to get ProjectResource for the framework
 
@@ -9612,11 +9777,22 @@ java.lang.NullPointerException
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+=======
+!ENTRY org.eclipse.ui 4 0 2014-12-04 19:46:31.045
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+>>>>>>> Stashed changes
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4136)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1458)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1481)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+<<<<<<< Updated upstream
 	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1244)
 	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:167)
 	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:741)
@@ -9628,6 +9804,11 @@ java.lang.NullPointerException
 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
 	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3615)
+=======
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1271)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
@@ -9650,6 +9831,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:22:41.055
 !MESSAGE Failed to get ProjectResource for the framework
 
@@ -9663,11 +9845,22 @@ java.lang.NullPointerException
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+=======
+!ENTRY org.eclipse.ui 4 0 2014-12-04 19:46:31.229
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+>>>>>>> Stashed changes
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4136)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1458)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1481)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+<<<<<<< Updated upstream
 	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1244)
 	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:167)
 	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:741)
@@ -9679,6 +9872,11 @@ java.lang.NullPointerException
 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
 	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3615)
+=======
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1271)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
@@ -9701,6 +9899,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:22:41.057
 !MESSAGE Failed to get ProjectResource for the framework
 
@@ -9714,11 +9913,22 @@ java.lang.NullPointerException
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+=======
+!ENTRY org.eclipse.ui 4 0 2014-12-04 19:47:46.313
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+>>>>>>> Stashed changes
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4136)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1458)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1481)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+<<<<<<< Updated upstream
 	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1244)
 	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:167)
 	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:741)
@@ -9730,6 +9940,11 @@ java.lang.NullPointerException
 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
 	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3615)
+=======
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1271)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
@@ -9752,6 +9967,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:22:41.059
 !MESSAGE Failed to get ProjectResource for the framework
 
@@ -9766,11 +9982,22 @@ java.lang.NullPointerException
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+=======
+!ENTRY org.eclipse.ui 4 0 2014-12-04 19:47:47.016
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+>>>>>>> Stashed changes
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4136)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1458)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1481)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+<<<<<<< Updated upstream
 	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1244)
 	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:167)
 	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:741)
@@ -9782,6 +10009,11 @@ java.lang.NullPointerException
 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
 	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3615)
+=======
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1271)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
@@ -9804,6 +10036,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:22:41.060
 !MESSAGE Failed to get ProjectResource for the framework
 
@@ -9817,11 +10050,22 @@ java.lang.NullPointerException
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+=======
+!ENTRY org.eclipse.ui 4 0 2014-12-04 19:47:47.282
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+>>>>>>> Stashed changes
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4136)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1458)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1481)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+<<<<<<< Updated upstream
 	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1244)
 	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:167)
 	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:741)
@@ -9833,6 +10077,11 @@ java.lang.NullPointerException
 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
 	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3615)
+=======
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1271)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
@@ -9855,6 +10104,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:22:41.063
 !MESSAGE Failed to get ProjectResource for the framework
 
@@ -9868,11 +10118,22 @@ java.lang.NullPointerException
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+=======
+!ENTRY org.eclipse.ui 4 0 2014-12-04 19:47:48.268
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+>>>>>>> Stashed changes
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4136)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1458)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1481)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+<<<<<<< Updated upstream
 	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1244)
 	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:167)
 	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:741)
@@ -9884,6 +10145,11 @@ java.lang.NullPointerException
 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
 	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3615)
+=======
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1271)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
@@ -9906,6 +10172,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:22:41.065
 !MESSAGE Failed to get ProjectResource for the framework
 
@@ -9920,11 +10187,22 @@ java.lang.NullPointerException
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+=======
+!ENTRY org.eclipse.ui 4 0 2014-12-04 19:47:48.669
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+>>>>>>> Stashed changes
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4136)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1458)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1481)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+<<<<<<< Updated upstream
 	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1244)
 	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:167)
 	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:741)
@@ -9936,6 +10214,11 @@ java.lang.NullPointerException
 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
 	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3615)
+=======
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1271)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
@@ -9958,6 +10241,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:22:41.067
 !MESSAGE Failed to get ProjectResource for the framework
 
@@ -9971,11 +10255,22 @@ java.lang.NullPointerException
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
+=======
+!ENTRY org.eclipse.ui 4 0 2014-12-04 19:48:06.233
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+>>>>>>> Stashed changes
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4136)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1458)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1481)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+<<<<<<< Updated upstream
 	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1244)
 	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:167)
 	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:741)
@@ -9987,6 +10282,11 @@ java.lang.NullPointerException
 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
 	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:94)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3615)
+=======
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1271)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
@@ -10009,6 +10309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 
+<<<<<<< Updated upstream
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-12-04 19:22:41.068
 !MESSAGE Failed to get ProjectResource for the framework
 
@@ -10346,3 +10647,14 @@ Caused by: java.io.FileNotFoundException: /Users/namnguyen/Documents/CS 371M/nic
 	at org.eclipse.swt.internal.Compatibility.newFileOutputStream(Compatibility.java:194)
 	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:256)
 	... 10 more
+=======
+!ENTRY org.eclipse.core.resources 2 2 2014-12-04 19:48:07.519
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2014-12-04 19:48:07.519
+!MESSAGE The project description file (.project) for '.org.eclipse.jdt.core.external.folders' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 2 2014-12-04 20:16:47.153
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2014-12-04 20:16:47.153
+!MESSAGE The project description file (.project) for '.org.eclipse.jdt.core.external.folders' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+>>>>>>> Stashed changes

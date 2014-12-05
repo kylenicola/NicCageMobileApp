@@ -49,8 +49,9 @@ public final class R {
         public static final int shakeme_first=0x7f020015;
         public static final int shakeme_fourth=0x7f020016;
         public static final int shakeme_second=0x7f020017;
-        public static final int shakeme_third=0x7f020018;
-        public static final int splash=0x7f020019;
+        public static final int shakeme_sixth=0x7f020018;
+        public static final int shakeme_third=0x7f020019;
+        public static final int splash=0x7f02001a;
     }
     public static final class id {
         public static final int ButtonA=0x7f0a000c;
@@ -98,11 +99,11 @@ public final class R {
         public static final int imageView1=0x7f0a002f;
         public static final int keyView=0x7f0a0002;
         public static final int movieView=0x7f0a0001;
-        public static final int progressBar1=0x7f0a0032;
         public static final int radioButton1=0x7f0a0024;
         public static final int radioButton2=0x7f0a0025;
         public static final int radioButton3=0x7f0a0026;
         public static final int rattleImage=0x7f0a0031;
+        public static final int rattleText=0x7f0a0032;
         public static final int rattle_the_cage_label=0x7f0a0035;
         public static final int rattle_the_cage_score=0x7f0a0036;
         public static final int rattle_the_cage_score_extra=0x7f0a0037;
@@ -173,6 +174,14 @@ public final class R {
         public static final int no=0x7f07001e;
         public static final int noSlowDown=0x7f07000b;
         public static final int quit_question=0x7f07001c;
+        public static final int rattle_text_neg_2=0x7f070024;
+        public static final int rattle_text_neg_3=0x7f070025;
+        public static final int rattle_text_neg_4=0x7f070026;
+        public static final int rattle_text_pos_1=0x7f07001f;
+        public static final int rattle_text_pos_2=0x7f070020;
+        public static final int rattle_text_pos_3=0x7f070021;
+        public static final int rattle_text_pos_4=0x7f070022;
+        public static final int rattle_text_pos_5=0x7f070023;
         public static final int rattle_the_cage_label=0x7f07000e;
         public static final int rattle_the_cage_score_description=0x7f070011;
         public static final int rattle_the_cage_title=0x7f07000d;

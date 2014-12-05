@@ -1,0 +1,38 @@
+4. An overview of your project and app. Name the file <apkname>_overview.txt.
+Replace <apk_name> with the same name as your apk file from part 2. The
+overview must contain the following:
+1. the team members names and uteids
+2. a list of features / use cases you completed
+3. a list of features / use cases from your application prototype (assignment 3)
+that you did not completed
+4. a list of features / use cases you added that were not part of the application
+prototypeCS378 Assignment 7 - Beta Release and In Class Demo 3
+5. a list of the classes and major chunks of code you obtained from other
+sources including the source. (URL and title / description)
+6. a list of the classes and major chunks of code you completed yourself
+
+1) Team Names/ UT EIDS
+a) Kyle Nicola (KAN346)
+b) Nam Nguyen ()
+c) Stephen Ridings ()
+2) List of features / use cases completed
+a) For the menu
+i) Settings to slow down the A, B, C game (kinda)
+ii) About, Help pages
+iii) Quit
+b) For the game Rattle The Cage
+i) Tracks the amount of the phone shaking
+ii) Vibrates increasingly with each level
+iii) Sounds of Nicolas Cage getting angry
+iv) Changing of pictures
+v) Ability to decrease the level by not shaking the phone
+c) For the game A, B, C’s with N,I,C
+d) For the game Cage Clues, What Did He Lose?
+e) For the scores page
+3) List of features / use cases from our application prototype (assignment 3) that we did not complete
+4) A list of features / use cases we added that were not part of the application prototype
+5) A list of classes and major chunks of code we obtained from other sources
+a) For the ShakeEventListener, significant amount of code was taking from here: http://stackoverflow.com/a/5117254.  
+The general idea of how the listener works was taken from here, but gutted and used for my purposes.  
+6) A list of the classes and major chunks of code we completed ourselves.
+a) For RattleTheCage.java most of the code is our own.  onShake especially with how it treats the logic on how to increase the vibrations/sounds and how to change pictures.  It also decreases if the totalDuration decreases which is nice.  

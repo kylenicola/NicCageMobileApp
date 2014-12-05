@@ -16,6 +16,8 @@ public class RattleTheCageVideo extends Activity
 {
 	//String SrcPath = "http://youtu.be/diQhM7HLNG8";
 	VideoView myVideoView;
+	
+	static final int RATTLE_SCORE = 50;
 
 	/** Called when the activity is first created. */
 	@Override
@@ -42,7 +44,8 @@ public class RattleTheCageVideo extends Activity
 
 				// TODO Auto-generated method stub
 				// need code to switch activities
-				Intent intent = new Intent(RattleTheCageVideo.this, MainActivity.class);
+				Intent intent = new Intent(RattleTheCageVideo.this, RattleTheCageScore.class);
+				intent.putExtra("score", RATTLE_SCORE);
 				startActivity(intent);
 
 			}

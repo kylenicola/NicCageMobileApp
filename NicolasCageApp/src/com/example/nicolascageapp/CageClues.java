@@ -34,10 +34,10 @@ public class CageClues extends Activity
         	@Override
         	public void onClick(View v) 
         	{
-                RadioButton rb = (RadioButton) v;
-                Toast.makeText(CageClues.this, rb.getText(), 
-                Toast.LENGTH_SHORT).show();
-                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+//                RadioButton rb = (RadioButton) v;
+                Toast.makeText(CageClues.this, "you're so right.  and your score?", Toast.LENGTH_LONG).show();
+
+                Intent i = new Intent(getApplicationContext(), CageCluesScore.class);
                 startActivity(i);
                 
         	}

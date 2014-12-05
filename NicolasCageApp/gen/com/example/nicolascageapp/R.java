@@ -44,15 +44,16 @@ public final class R {
         public static final int mainmenu_cageclues=0x7f020010;
         public static final int mainmenu_rattlecage=0x7f020011;
         public static final int nic_cage_mockup_final=0x7f020012;
-        public static final int score_menu_abcs_button_style=0x7f020013;
-        public static final int score_menu_cageclues_button_style=0x7f020014;
-        public static final int score_menu_rattlecage_button_style=0x7f020015;
-        public static final int shakeme_fifth=0x7f020016;
-        public static final int shakeme_first=0x7f020017;
-        public static final int shakeme_fourth=0x7f020018;
-        public static final int shakeme_second=0x7f020019;
-        public static final int shakeme_third=0x7f02001a;
-        public static final int splash=0x7f02001b;
+        public static final int options_textview_style=0x7f020013;
+        public static final int score_menu_abcs_button_style=0x7f020014;
+        public static final int score_menu_cageclues_button_style=0x7f020015;
+        public static final int score_menu_rattlecage_button_style=0x7f020016;
+        public static final int shakeme_fifth=0x7f020017;
+        public static final int shakeme_first=0x7f020018;
+        public static final int shakeme_fourth=0x7f020019;
+        public static final int shakeme_second=0x7f02001a;
+        public static final int shakeme_third=0x7f02001b;
+        public static final int splash=0x7f02001c;
     }
     public static final class id {
         public static final int ButtonA=0x7f0a0012;

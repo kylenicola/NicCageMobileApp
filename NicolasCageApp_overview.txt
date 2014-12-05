@@ -13,8 +13,10 @@ sources including the source. (URL and title / description)
 
 1) Team Names/ UT EIDS
 Kyle Nicola (KAN346)
-Nam Nguyen ()
+Nam Nguyen (ndn247)
 Stephen Ridings ()
+
+
 2) List of features / use cases completed
  
 For the menu
@@ -31,11 +33,13 @@ For the game Rattle The Cage
 -Changing of pictures and text
 -Ability to decrease the level by not shaking the phone
 
-For the game A, B, C’s with N,I,C
+For the game A, B, CÕs with N,I,C
 
 For the game Cage Clues, What Did He Lose?
+-plays a scene from one of his movies expressing what he lost
+-followed by a multiple choice question quizzing you on the scene
 
-For the scores page
+For the Scores page
 
 3) List of features / use cases from our application prototype (assignment 3) that we did not complete
 

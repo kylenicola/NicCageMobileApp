@@ -44,6 +44,7 @@
     <string name="rattle_text_neg_2">Why are you weak?</string>
     <string name="rattle_text_neg_3"></string>
     <string name="rattle_text_neg_4">You such a disappointment</string>
+    <string name="settings_dialog_title">Settings</string>
 
 
 </resources>

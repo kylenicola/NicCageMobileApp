@@ -32,7 +32,9 @@ For the game Rattle The Cage
 -Ability to decrease the level by not shaking the phone
 
 For the game A, B, C’s with N,I,C
+
 For the game Cage Clues, What Did He Lose?
+
 For the scores page
 
 3) List of features / use cases from our application prototype (assignment 3) that we did not complete

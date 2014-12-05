@@ -69,7 +69,7 @@ public class RattleTheCage extends Activity {
 						if(!hasStopped)
 						{
 							// put sound in here
-							//mSounds.play(mSoundIDMap.get(), 1, 1, 1, 0, 1);
+							mSounds.play(mSoundIDMap.get(R.raw.yell_four), 1, 1, 1, 0, 1);
 						}
 						myTextView.setText(R.string.rattle_text_pos_5);
 						long[] patterns = {0, 400, 100, 400, 100, 400, 100, 400, 100, 400, 100, 400, 100};
@@ -85,7 +85,7 @@ public class RattleTheCage extends Activity {
 						if(!hasStopped)
 						{
 							// put sound in here
-							//mSounds.play(mSoundIDMap.get(), 1, 1, 1, 0, 1);
+							mSounds.play(mSoundIDMap.get(R.raw.yell_three), 1, 1, 1, 0, 1);
 							myTextView.setText(R.string.rattle_text_pos_4);
 						}
 						else
@@ -106,7 +106,7 @@ public class RattleTheCage extends Activity {
 						if(!hasStopped)
 						{
 							// put sound in here
-							//mSounds.play(mSoundIDMap.get(), 1, 1, 1, 0, 1);
+							mSounds.play(mSoundIDMap.get(R.raw.yell_two), 1, 1, 1, 0, 1);
 							myTextView.setText(R.string.rattle_text_pos_3);
 						}
 						else
@@ -128,7 +128,7 @@ public class RattleTheCage extends Activity {
 						if(!hasStopped)
 						{
 							// put sound in here
-							//mSounds.play(mSoundIDMap.get(), 1, 1, 1, 0, 1);
+							mSounds.play(mSoundIDMap.get(R.raw.yell_one), 1, 1, 1, 0, 1);
 							myTextView.setText(R.string.rattle_text_pos_2);
 						}
 						else
@@ -160,7 +160,7 @@ public class RattleTheCage extends Activity {
 	private void createSoundPool() {
 		
 		// place sound ids here
-		int[] soundIds = {};
+		int[] soundIds = {R.raw.yell_one, R.raw.yell_two, R.raw.yell_three, R.raw.yell_four};
 		
 		mSoundIDMap = new HashMap<Integer, Integer>();
 		mSounds = new SoundPool(2, AudioManager.STREAM_MUSIC, 0);

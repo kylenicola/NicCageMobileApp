@@ -14,7 +14,7 @@ sources including the source. (URL and title / description)
 1) Team Names/ UT EIDS
 Kyle Nicola (KAN346)
 Nam Nguyen (ndn247)
-Stephen Ridings ()
+Stephen Ridings (SJR94)
 
 
 2) List of features / use cases completed
@@ -33,7 +33,10 @@ For the game Rattle The Cage
 -Changing of pictures and text
 -Ability to decrease the level by not shaking the phone
 
-For the game A, B, CÕs with N,I,C
+For the game A, B, CÃ•s with N,I,C
+- plays a video of Nicolas Cage reciting the abc's
+- times keystrokes to see if they align with the time of his abc's
+- implemented a keyboard 
 
 For the game Cage Clues, What Did He Lose?
 -plays a scene from one of his movies expressing what he lost
@@ -55,4 +58,7 @@ The general idea of how the listener works was taken from here, but gutted and u
 6) A list of the classes and major chunks of code we completed ourselves.
 
 For RattleTheCage.java most of the code is our own.  onShake especially with how it treats the logic on how to 
-increase the vibrations/sounds and how to change pictures.  It also decreases if the totalDuration decreases which is nice.  
+increase the vibrations/sounds and how to change pictures.  It also decreases if the totalDuration decreases which is nice.
+
+For AbcsWithNic.java most of the code is our own as well. We implemented timing for the keystrokes, and a keypad of our own
+for the game

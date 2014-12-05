@@ -3,22 +3,31 @@
 	android:layout_height="match_parent" 
 	android:background="@android:color/background_dark"
 	android:orientation="vertical" >
+
+	<ViewFlipper 
+	    android:id="@+id/flipper" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:flipInterval="1000" >
 	
-    
+		<TextView 
+			android:id="@+id/priceless"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="25dp"
+			android:layout_marginTop="125dp"
+			android:text="@string/perf_priceless"
+			android:textSize="100sp"
+			android:textStyle="bold" 
+			android:textColor="#fe0001" />  
+			     
+		<TextView 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+			android:layout_marginLeft="25dp"
+			android:layout_marginTop="125dp"		    		
+		    android:text="" />	
+	
+	</ViewFlipper>
 
-<ViewFlipper android:id="@+id/flipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:flipInterval="1000" >
-
-	<TextView 
-		android:id="@+id/priceless"
-		android:layout_width="wrap_content"
-		     android:layout_height="wrap_content"
-			 android:layout_marginLeft="25dp"
-		     android:layout_marginTop="125dp"
-		     android:text="@string/perf_priceless"
-		     android:textSize="100dp"
-		     android:textStyle="bold" 
-		     android:textColor="#fe0001" />  
-
-</ViewFlipper>
-
-	</LinearLayout>
+</LinearLayout>

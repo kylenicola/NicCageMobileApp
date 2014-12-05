@@ -217,6 +217,8 @@ public class MainActivity extends Activity {
 		}
 		else if(id == R.id.action_scores)
 		{
+			Intent intent = new Intent(this, ScoreMenu.class);
+			startActivity(intent);
 			// Create intent to go to scores menu
 			return true;
 		}

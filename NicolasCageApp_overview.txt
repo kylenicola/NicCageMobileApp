@@ -12,27 +12,40 @@ sources including the source. (URL and title / description)
 6. a list of the classes and major chunks of code you completed yourself
 
 1) Team Names/ UT EIDS
-a) Kyle Nicola (KAN346)
-b) Nam Nguyen ()
-c) Stephen Ridings ()
+Kyle Nicola (KAN346)
+Nam Nguyen ()
+Stephen Ridings ()
 2) List of features / use cases completed
-a) For the menu
-i) Settings to slow down the A, B, C game (kinda)
-ii) About, Help pages
-iii) Quit
-b) For the game Rattle The Cage
-i) Tracks the amount of the phone shaking
-ii) Vibrates increasingly with each level
-iii) Sounds of Nicolas Cage getting angry
-iv) Changing of pictures
-v) Ability to decrease the level by not shaking the phone
-c) For the game A, B, C’s with N,I,C
-d) For the game Cage Clues, What Did He Lose?
-e) For the scores page
+ 
+For the menu
+
+-Settings to slow down the A, B, C game (kinda)
+-About, Help pages
+-Quit option
+
+For the game Rattle The Cage
+
+-Tracks the amount of the phone shaking
+-Vibrates increasingly with each level
+-Sounds of Nicolas Cage getting angry
+-Changing of pictures and text
+-Ability to decrease the level by not shaking the phone
+
+For the game A, B, C’s with N,I,C
+For the game Cage Clues, What Did He Lose?
+For the scores page
+
 3) List of features / use cases from our application prototype (assignment 3) that we did not complete
+
 4) A list of features / use cases we added that were not part of the application prototype
+
 5) A list of classes and major chunks of code we obtained from other sources
-a) For the ShakeEventListener, significant amount of code was taking from here: http://stackoverflow.com/a/5117254.  
-The general idea of how the listener works was taken from here, but gutted and used for my purposes.  
+
+-For the ShakeEventListener, significant amount of code was taking from here: http://stackoverflow.com/a/5117254. 
+
+The general idea of how the listener works was taken from here, but gutted and used for my purposes.
+  
 6) A list of the classes and major chunks of code we completed ourselves.
-a) For RattleTheCage.java most of the code is our own.  onShake especially with how it treats the logic on how to increase the vibrations/sounds and how to change pictures.  It also decreases if the totalDuration decreases which is nice.  
+
+For RattleTheCage.java most of the code is our own.  onShake especially with how it treats the logic on how to 
+increase the vibrations/sounds and how to change pictures.  It also decreases if the totalDuration decreases which is nice.  
